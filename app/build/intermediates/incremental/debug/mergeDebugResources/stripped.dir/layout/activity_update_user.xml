@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".data.firebase.users.UpdateUserActivity">
+
+    <EditText
+        android:id="@+id/et_update_name"
+        style="@style/FirebaseUsersEditTextAppearance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_name_text_hint"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/et_update_age"
+        style="@style/FirebaseUsersEditTextAppearance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_age_text_hint"
+        android:importantForAutofill="no"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/et_update_email"
+        style="@style/FirebaseUsersEditTextAppearance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_email_text_hint"
+        android:importantForAutofill="no"
+        android:inputType="textWebEmailAddress" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_update_user"
+        style="@style/AccountMaterialButtonAppearance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/update_user_button_text" />
+
+</LinearLayout>

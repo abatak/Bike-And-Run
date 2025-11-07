@@ -1,0 +1,12 @@
+[
+  {
+    "name": "nav_graph_bicycle",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  },
+  {
+    "name": "nav_graph_running",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  }
+]

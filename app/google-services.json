@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "647351982762",
+    "project_id": "bikeandrun-95711",
+    "storage_bucket": "bikeandrun-95711.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647351982762:android:42fc2fb4b08c0b5adeced3",
+        "android_client_info": {
+          "package_name": "com.batakantonio.bikeandrun"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5t7_hYYNpApX2aFDxgBj51oY-39YVM7Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

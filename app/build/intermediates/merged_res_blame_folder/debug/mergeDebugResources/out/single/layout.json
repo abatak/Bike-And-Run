@@ -1,0 +1,78 @@
+[
+    {
+        "merged": "com.batakantonio.bikeandrun.app-mergeDebugResources-74:/layout/activity_main.xml",
+        "source": "com.batakantonio.bikeandrun.app-main-77:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.batakantonio.bikeandrun.app-mergeDebugResources-74:/layout/activity_update_user.xml",
+        "source": "com.batakantonio.bikeandrun.app-main-77:/layout/activity_update_user.xml"
+    },
+    {
+        "merged": "com.batakantonio.bikeandrun.app-mergeDebugResources-74:/layout/fragment_bike.xml",
+        "source": "com.batakantonio.bikeandrun.app-main-77:/layout/fragment_bike.xml"
+    },
+    {
+        "merged": "com.batakantonio.bikeandrun.app-mergeDebugResources-74:/layout/activity_add_users.xml",
+        "source": "com.batakantonio.bikeandrun.app-main-77:/layout/activity_add_users.xml"
+    },
+    {
+        "merged": "com.batakantonio.bikeandrun.app-mergeDebugResources-74:/layout/activity_edit_records.xml",
+        "source": "com.batakantonio.bikeandrun.app-main-77:/layout/activity_edit_records.xml"
+    },
+    {
+        "merged": "com.batakantonio.bikeandrun.app-mergeDebugResources-74:/layout/fragment_running.xml",
+        "source": "com.batakantonio.bikeandrun.app-main-77:/layout/fragment_running.xml"
+    },
+    {
+        "merged": "com.batakantonio.bikeandrun.app-mergeDebugResources-74:/layout/activity_sign_in.xml",
+        "source": "com.batakantonio.bikeandrun.app-main-77:/layout/activity_sign_in.xml"
+    },
+    {
+        "merged": "com.batakantonio.bikeandrun.app-mergeDebugResources-74:/layout/item_record.xml",
+        "source": "com.batakantonio.bikeandrun.app-main-77:/layout/item_record.xml"
+    },
+    {
+        "merged": "com.batakantonio.bikeandrun.app-mergeDebugResources-74:/layout/item_challenge.xml",
+        "source": "com.batakantonio.bikeandrun.app-main-77:/layout/item_challenge.xml"
+    },
+    {
+        "merged": "com.batakantonio.bikeandrun.app-mergeDebugResources-74:/layout/activity_maps.xml",
+        "source": "com.batakantonio.bikeandrun.app-main-77:/layout/activity_maps.xml"
+    },
+    {
+        "merged": "com.batakantonio.bikeandrun.app-mergeDebugResources-74:/layout/activity_forgot_password.xml",
+        "source": "com.batakantonio.bikeandrun.app-main-77:/layout/activity_forgot_password.xml"
+    },
+    {
+        "merged": "com.batakantonio.bikeandrun.app-mergeDebugResources-74:/layout/fragment_challenge_bike.xml",
+        "source": "com.batakantonio.bikeandrun.app-main-77:/layout/fragment_challenge_bike.xml"
+    },
+    {
+        "merged": "com.batakantonio.bikeandrun.app-mergeDebugResources-74:/layout/fragment_bike_calories.xml",
+        "source": "com.batakantonio.bikeandrun.app-main-77:/layout/fragment_bike_calories.xml"
+    },
+    {
+        "merged": "com.batakantonio.bikeandrun.app-mergeDebugResources-74:/layout/users_item.xml",
+        "source": "com.batakantonio.bikeandrun.app-main-77:/layout/users_item.xml"
+    },
+    {
+        "merged": "com.batakantonio.bikeandrun.app-mergeDebugResources-74:/layout/fragment_running_calories.xml",
+        "source": "com.batakantonio.bikeandrun.app-main-77:/layout/fragment_running_calories.xml"
+    },
+    {
+        "merged": "com.batakantonio.bikeandrun.app-mergeDebugResources-74:/layout/fragment_challenge_running.xml",
+        "source": "com.batakantonio.bikeandrun.app-main-77:/layout/fragment_challenge_running.xml"
+    },
+    {
+        "merged": "com.batakantonio.bikeandrun.app-mergeDebugResources-74:/layout/dialog_edit_record.xml",
+        "source": "com.batakantonio.bikeandrun.app-main-77:/layout/dialog_edit_record.xml"
+    },
+    {
+        "merged": "com.batakantonio.bikeandrun.app-mergeDebugResources-74:/layout/activity_sing_up.xml",
+        "source": "com.batakantonio.bikeandrun.app-main-77:/layout/activity_sing_up.xml"
+    },
+    {
+        "merged": "com.batakantonio.bikeandrun.app-mergeDebugResources-74:/layout/activity_firebase_main.xml",
+        "source": "com.batakantonio.bikeandrun.app-main-77:/layout/activity_firebase_main.xml"
+    }
+]

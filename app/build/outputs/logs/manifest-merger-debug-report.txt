@@ -1,0 +1,1304 @@
+-- Merging decision tree log ---
+meta-data#com.google.android.geo.API_KEY
+INJECTED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:61:9-63:47
+	android:value
+		INJECTED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:63:13-45
+	android:name
+		ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:62:13-58
+manifest
+ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:2:1-67:12
+INJECTED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:2:1-67:12
+INJECTED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:2:1-67:12
+INJECTED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:2:1-67:12
+MERGED from [androidx.databinding:viewbinding:8.10.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\d6966e533f4edc2892a2b19f32a89317\transformed\jetified-viewbinding-8.10.1\AndroidManifest.xml:2:1-7:12
+MERGED from [com.vmadalin:easypermissions-ktx:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\941e336170986db3c1a02b7e4b5bc07c\transformed\jetified-easypermissions-ktx-1.0.0\AndroidManifest.xml:3:1-18:12
+MERGED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:2:1-117:12
+MERGED from [io.insert-koin:koin-androidx-navigation:4.1.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\8dfd3e31db2f8ee9f4b882a7c232d56e\transformed\jetified-koin-androidx-navigation-4.1.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime-android:2.9.5] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\c90717f5406cad165b9040e4ffc1b2e8\transformed\jetified-navigation-runtime-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-android:2.9.5] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\35f32e296604f7739fb419d23ed282df\transformed\jetified-navigation-common-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment:2.9.5] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\dfe961dfd2e8e1470ebb7647ddbafc1e\transformed\navigation-fragment-2.9.5\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.9.5] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\17e715c344b50ed252e658b4935bebfc\transformed\navigation-fragment-ktx-2.9.5\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.9.5] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\13555c754fa6ab838cc58a3090ad4704\transformed\navigation-ui-ktx-2.9.5\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-ui:2.9.5] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\833c2b68f479fc3a659ff4b413ad4dc6\transformed\navigation-ui-2.9.5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\651c146452551155d0dd6de5a4027066\transformed\material-1.13.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\e8952e8aa112adc2a5f319c694c252c8\transformed\constraintlayout-2.2.1\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\adab4ab156efbb14e9edf1f9979a1eda\transformed\jetified-appcompat-resources-1.7.1\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-auth-ktx:23.2.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\06e4a3a000b5098c663faa6926fff455\transformed\jetified-firebase-auth-ktx-23.2.1\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f0a9f3bd628fb6bffb2c937d1fcaf291\transformed\jetified-firebase-auth-24.0.1\AndroidManifest.xml:17:1-75:12
+MERGED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\28a1eb1bc94777a12893fd4b07f541db\transformed\jetified-credentials-play-services-auth-1.5.0\AndroidManifest.xml:17:1-52:12
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\c6413c7b7c272c18897da09d6946a36e\transformed\jetified-googleid-1.1.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.credentials:credentials:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\1320edc134eea3a95369b9b3e0625ad9\transformed\jetified-credentials-1.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.biometric:biometric:1.1.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\40dd15e54890a45733c5e5a638c5f753\transformed\biometric-1.1.0\AndroidManifest.xml:17:1-29:12
+MERGED from [io.insert-koin:koin-android:4.1.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\1d39be6de844a1620c37744289115353\transformed\jetified-koin-android-4.1.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\834c692ca19a03c2547b64023b3fc1dc\transformed\appcompat-1.7.1\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-maps:19.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\17d8e83724fc675f49b995efaea7e0da\transformed\jetified-play-services-maps-19.2.0\AndroidManifest.xml:16:1-35:12
+MERGED from [com.google.android.gms:play-services-auth:21.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ff667efb3b4ee92f7c31c8fb5ee8a271\transformed\jetified-play-services-auth-21.4.0\AndroidManifest.xml:17:1-40:12
+MERGED from [androidx.recyclerview:recyclerview:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\8bc0cd2b460e7aa84cdfdd0cde24fe49\transformed\recyclerview-1.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\90f4bfbfc9d05599fdc9f40fb315749d\transformed\jetified-viewpager2-1.1.0-beta02\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-location:21.3.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f3fb50ec5dc792928e058fc4985e0aec\transformed\jetified-play-services-location-21.3.0\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-database:22.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f7f6e715c067c2e0d2c536dbaed5652c\transformed\jetified-firebase-database-22.0.1\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.firebase:firebase-firestore:26.0.2] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\3f17457a170db5dd3c5a4c8d4d3c7c24\transformed\jetified-firebase-firestore-26.0.2\AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\54e78ac3bfb36263ba8f35da78d603c0\transformed\jetified-play-services-auth-api-phone-18.0.2\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\a8e0c2e51342b420f975d6ef5ae5a47e\transformed\jetified-play-services-auth-base-18.0.10\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-fido:21.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\5809bfe66d5a45f2b1daa5569e709449\transformed\jetified-play-services-fido-21.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-auth-blockstore:16.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\93fc943bb575f7f013a496a475cc3bfd\transformed\jetified-play-services-auth-blockstore-16.4.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-identity-credentials:16.0.0-alpha02] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\a61c1a37c888002e2f2e2b878e518784\transformed\jetified-play-services-identity-credentials-16.0.0-alpha02\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\728b7bda8e6fa34d86bda3ddda8db696\transformed\jetified-firebase-appcheck-interop-17.1.0\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\5b2ba2dae02b1b3cece1f3a02ef34d44\transformed\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\aab1b5bfb7d7c7e7c2b8d5629deb1f28\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\2c9fdb53e7c7d02b8acc2c15b60bb364\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ff4b63be58bfb15f86f5c927053b9356\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\c02fda28af9353995c6fa5c1fb99bd98\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\7d90e775f46ec5134fa06572c36d32b6\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\d705b4666bd1d302fb150ff02d011d9f\transformed\jetified-firebase-common-22.0.1\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\af4ec130a78ac83b18382837196bb146\transformed\jetified-recaptcha-18.6.1\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\9ed18b9e149eca285748ce6235468d5a\transformed\jetified-integrity-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.work:work-runtime-ktx:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\185a20f3734c1883ee8cc7b8682b22e5\transformed\work-runtime-ktx-2.11.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:17:1-83:12
+MERGED from [androidx.room:room-runtime-android:2.8.3] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\bfe9c83f5b84872f290cdd85e49b8775\transformed\jetified-room-runtime\AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.room:room-ktx:2.8.3] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4857b6ba55ebcc1f71c8f0a5ee7453e5\transformed\jetified-room-ktx-2.8.3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\7d1c6810732cc957ad5d6f54de0a08a8\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f66237eba8a3d0134dcc84f8528d0359\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.1.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\3d25f4c8748095171b125e2d8a0385b4\transformed\loader-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\6e57c54b54a4b1e67df105c2c222a6bb\transformed\jetified-emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\5540668fe0fd1dbbda75b245fc4c28df\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\08b38da6881338a1bc8e0b940f0618eb\transformed\jetified-customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ffeed86e0297904b2c4acf7e84b20730\transformed\jetified-graphics-shapes-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.test:core:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f58ed41ee4193a86f87123271e9bc6b\transformed\jetified-core-1.7.0\AndroidManifest.xml:17:1-53:12
+MERGED from [androidx.activity:activity-ktx:1.10.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\38a236c21f37e8188702b3d1f47da7b4\transformed\jetified-activity-ktx-1.10.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.10.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\bae8783e1409fd7de9e409c1b15c15ce\transformed\jetified-activity-1.10.1\AndroidManifest.xml:17:1-22:12
+MERGED from [io.insert-koin:koin-core-viewmodel-android:4.1.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\01c855f4bbb59af9408abea344b5484b\transformed\jetified-koin-core-viewmodel-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.9.4] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\9fe9bcbd29970097f6d22690df681682\transformed\lifecycle-viewmodel-2.9.4\AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.9.4] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\e2eadfee117ca09453c2c1a97f892c61\transformed\jetified-lifecycle-viewmodel-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.3.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\426f7c062463dba10f6d2d7d1f57af19\transformed\jetified-savedstate-ktx-1.3.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-android:1.3.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\9959e2f916adc424f78d83a6bcf96c39\transformed\jetified-savedstate-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.9.4] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\0ba8a701cfcc2c11ec39766fb57665ee\transformed\jetified-lifecycle-viewmodel-savedstate-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.16.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4066878df5c342f5f6e8964c5a3db746\transformed\jetified-core-ktx-1.16.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\05fc313f9cdfadf3f5e7d457adfff2ea\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\d9c6ccbbf10fa409f24ab0bbe7518e30\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\b68191ffe8398adef7eb4d7c6d655dc6\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f5d1af9d2f7a9cbcf7d7cc094b2f82b3\transformed\transition-1.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\b705b7c646351dccdf69f8b62ac5a4bc\transformed\dynamicanimation-1.1.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\9d75fa32d823d2b5742e6f744e294c7d\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\d79e1061009cd3f07e157f19c7f0c295\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\a79c0beff90a7334a65dd0a3579da336\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\a03badc22295b70f37d44ddda33b6dd1\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\b782086382a6496a399f70f4c19779cb\transformed\browser-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\355abf597b23561e57267bc34c125cd4\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.window:window:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f3fee2f6c8d1c1e1ca1373c0917f66f\transformed\jetified-window-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\277379c460a5888bd6c3e9c600ae87c0\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\84895e35e2db32a9f315b2128b383bbf\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.16.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f6075dddbc52ad370fc1938709185987\transformed\core-1.16.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.9.4] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4badf397fcf9d82140c18483bff94488\transformed\lifecycle-runtime-2.9.4\AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.9.4] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\c1fe607500d29e3c43ac80fdac528ef8\transformed\jetified-lifecycle-runtime-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.9.4] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\c3596a5274ba554fb0521ac5fba040f0\transformed\lifecycle-livedata-2.9.4\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\47f098a3c25eeb19e82c73db75392a92\transformed\jetified-lifecycle-process-2.9.4\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.9.4] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\bcf1ea80a0acf9ba8179f8ea14971323\transformed\lifecycle-livedata-core-2.9.4\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.4] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\08653d2653a698e64d657946a26d2a45\transformed\jetified-lifecycle-viewmodel-ktx-2.9.4\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.9.4] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\b83a661b9607ec43efbafd81d5bc0139\transformed\jetified-lifecycle-livedata-core-ktx-2.9.4\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.9.4] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\57604ccc8df192505dadb0539d32072f\transformed\jetified-lifecycle-service-2.9.4\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.4] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\1d3ab9fa5f0dff1f6ea1a04a431008d9\transformed\jetified-lifecycle-runtime-ktx\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\faa307491040cc56d9d7ade091b5c17c\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.datastore:datastore-core-android:1.1.7] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\17839df17cd8a74819dccdc82b47dc7f\transformed\jetified-datastore-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-preferences-core-android:1.1.7] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\7a07f4bae4010dfdd091caba77be3403\transformed\jetified-datastore-preferences-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-android:1.1.7] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\930a350330a924e84c64db8888c33eea\transformed\jetified-datastore-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.7] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\2b243c872561e99085ddc30cf2cddb49\transformed\jetified-datastore-preferences-release\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\1018eeb4ee9818c44ce9c00cc8dbc234\transformed\jetified-play-services-tasks-18.2.0\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:18.8.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\5777b7e172b7f896cbe191ccee9beefe\transformed\jetified-play-services-basement-18.8.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.8.9] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\e6f914fc1340d2697a58221c2c5b267f\transformed\fragment-1.8.9\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment-testing-manifest:1.8.9] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\510a8236ecd53f77694dfc72b744caef\transformed\jetified-fragment-testing-manifest-1.8.9\AndroidManifest.xml:17:1-38:12
+MERGED from [androidx.fragment:fragment-ktx:1.8.9] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\426c51be924932d6e5b452f995066277\transformed\jetified-fragment-ktx-1.8.9\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment-testing:1.8.9] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\34adf76af0f3761e6273aa4c1686f53e\transformed\jetified-fragment-testing-1.8.9\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.test:rules:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\e123b4885da20f1a07d86acaacb2dd28\transformed\rules-1.7.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.test:runner:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\5b721fa156d110cf3141d534629d31f0\transformed\runner-1.7.0\AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.test.services:storage:1.6.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\751aec1d11f692aa039107ae9d5b00c6\transformed\jetified-storage-1.6.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.test:monitor:1.8.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\fd312d0504527f8b649a08f96924f40c\transformed\monitor-1.8.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\8f1cac35dc7fe9b74adb432aec46ca6e\transformed\jetified-core-viewtree-1.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.startup:startup-runtime:1.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\de4dc66f24221266fb81f95fa5a43d7a\transformed\jetified-startup-runtime-1.2.0\AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\3ce8007fad40af4cc7493923da8b47ec\transformed\jetified-tracing-1.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing-ktx:1.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\a9ea5472a310462dd65589bc946de8b6\transformed\jetified-tracing-ktx-1.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\72b8558c76699cc3335d1432f992b2e3\transformed\jetified-annotation-experimental-1.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\b6cc847cddec1d89863b70ef34f01927\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\1c04e53f205668eb67fa1d2735b83664\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:19.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\913151a76bc0ca75c91b7653fdbec088\transformed\jetified-firebase-components-19.0.0\AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\15017b453ae460e852c98a4f7980cb34\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\7b25aab632ba9c5ba01c33b34173bfc5\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f0e5552d8eb02bc2eae8069289fb8706\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\1982411480694fe3a4e2b390fb7bd666\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\928835cd416ff6ebbc2672ad836e9616\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\7284f65a83bbe13eb4a3c88f285870e6\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework-android:2.6.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\df05cd437fabd19eab02e861156e55f0\transformed\jetified-sqlite-framework\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-android:2.6.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ead51f2b1ee051fa14bcd28d63484f41\transformed\jetified-sqlite\AndroidManifest.xml:17:1-22:12
+MERGED from [io.grpc:grpc-android:1.62.2] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db8e534677ae61ae5feeb78e66bc1f42\transformed\jetified-grpc-android-1.62.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\9b1f9d0e140d8dee629dab90284923c3\transformed\jetified-protolite-well-known-types-18.0.1\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\641b20e719ff9d4b28fc2a1921b9452d\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:2:1-21:12
+	package
+		INJECTED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:5:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:6:22-78
+application
+ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:9:5-65:19
+INJECTED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:9:5-65:19
+MERGED from [com.vmadalin:easypermissions-ktx:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\941e336170986db3c1a02b7e4b5bc07c\transformed\jetified-easypermissions-ktx-1.0.0\AndroidManifest.xml:12:5-16:19
+MERGED from [com.vmadalin:easypermissions-ktx:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\941e336170986db3c1a02b7e4b5bc07c\transformed\jetified-easypermissions-ktx-1.0.0\AndroidManifest.xml:12:5-16:19
+MERGED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:23:5-115:19
+MERGED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:23:5-115:19
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\651c146452551155d0dd6de5a4027066\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\651c146452551155d0dd6de5a4027066\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\e8952e8aa112adc2a5f319c694c252c8\transformed\constraintlayout-2.2.1\AndroidManifest.xml:7:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\e8952e8aa112adc2a5f319c694c252c8\transformed\constraintlayout-2.2.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-auth-ktx:23.2.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\06e4a3a000b5098c663faa6926fff455\transformed\jetified-firebase-auth-ktx-23.2.1\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-auth-ktx:23.2.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\06e4a3a000b5098c663faa6926fff455\transformed\jetified-firebase-auth-ktx-23.2.1\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f0a9f3bd628fb6bffb2c937d1fcaf291\transformed\jetified-firebase-auth-24.0.1\AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f0a9f3bd628fb6bffb2c937d1fcaf291\transformed\jetified-firebase-auth-24.0.1\AndroidManifest.xml:28:5-73:19
+MERGED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\28a1eb1bc94777a12893fd4b07f541db\transformed\jetified-credentials-play-services-auth-1.5.0\AndroidManifest.xml:23:5-50:19
+MERGED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\28a1eb1bc94777a12893fd4b07f541db\transformed\jetified-credentials-play-services-auth-1.5.0\AndroidManifest.xml:23:5-50:19
+MERGED from [com.google.android.gms:play-services-maps:19.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\17d8e83724fc675f49b995efaea7e0da\transformed\jetified-play-services-maps-19.2.0\AndroidManifest.xml:31:5-34:19
+MERGED from [com.google.android.gms:play-services-maps:19.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\17d8e83724fc675f49b995efaea7e0da\transformed\jetified-play-services-maps-19.2.0\AndroidManifest.xml:31:5-34:19
+MERGED from [com.google.android.gms:play-services-auth:21.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ff667efb3b4ee92f7c31c8fb5ee8a271\transformed\jetified-play-services-auth-21.4.0\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:21.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ff667efb3b4ee92f7c31c8fb5ee8a271\transformed\jetified-play-services-auth-21.4.0\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-location:21.3.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f3fb50ec5dc792928e058fc4985e0aec\transformed\jetified-play-services-location-21.3.0\AndroidManifest.xml:6:5-20
+MERGED from [com.google.android.gms:play-services-location:21.3.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f3fb50ec5dc792928e058fc4985e0aec\transformed\jetified-play-services-location-21.3.0\AndroidManifest.xml:6:5-20
+MERGED from [com.google.firebase:firebase-database:22.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f7f6e715c067c2e0d2c536dbaed5652c\transformed\jetified-firebase-database-22.0.1\AndroidManifest.xml:25:5-36:19
+MERGED from [com.google.firebase:firebase-database:22.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f7f6e715c067c2e0d2c536dbaed5652c\transformed\jetified-firebase-database-22.0.1\AndroidManifest.xml:25:5-36:19
+MERGED from [com.google.firebase:firebase-firestore:26.0.2] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\3f17457a170db5dd3c5a4c8d4d3c7c24\transformed\jetified-firebase-firestore-26.0.2\AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:26.0.2] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\3f17457a170db5dd3c5a4c8d4d3c7c24\transformed\jetified-firebase-firestore-26.0.2\AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.android.gms:play-services-fido:21.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\5809bfe66d5a45f2b1daa5569e709449\transformed\jetified-play-services-fido-21.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-fido:21.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\5809bfe66d5a45f2b1daa5569e709449\transformed\jetified-play-services-fido-21.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-auth-blockstore:16.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\93fc943bb575f7f013a496a475cc3bfd\transformed\jetified-play-services-auth-blockstore-16.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-auth-blockstore:16.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\93fc943bb575f7f013a496a475cc3bfd\transformed\jetified-play-services-auth-blockstore-16.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\728b7bda8e6fa34d86bda3ddda8db696\transformed\jetified-firebase-appcheck-interop-17.1.0\AndroidManifest.xml:21:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\728b7bda8e6fa34d86bda3ddda8db696\transformed\jetified-firebase-appcheck-interop-17.1.0\AndroidManifest.xml:21:5-20
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\aab1b5bfb7d7c7e7c2b8d5629deb1f28\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\aab1b5bfb7d7c7e7c2b8d5629deb1f28\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\2c9fdb53e7c7d02b8acc2c15b60bb364\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\2c9fdb53e7c7d02b8acc2c15b60bb364\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\c02fda28af9353995c6fa5c1fb99bd98\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\c02fda28af9353995c6fa5c1fb99bd98\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\7d90e775f46ec5134fa06572c36d32b6\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\7d90e775f46ec5134fa06572c36d32b6\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\d705b4666bd1d302fb150ff02d011d9f\transformed\jetified-firebase-common-22.0.1\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\d705b4666bd1d302fb150ff02d011d9f\transformed\jetified-firebase-common-22.0.1\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\9ed18b9e149eca285748ce6235468d5a\transformed\jetified-integrity-1.3.0\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\9ed18b9e149eca285748ce6235468d5a\transformed\jetified-integrity-1.3.0\AndroidManifest.xml:5:5-6:19
+MERGED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:28:5-81:19
+MERGED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:28:5-81:19
+MERGED from [androidx.room:room-runtime-android:2.8.3] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\bfe9c83f5b84872f290cdd85e49b8775\transformed\jetified-room-runtime\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime-android:2.8.3] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\bfe9c83f5b84872f290cdd85e49b8775\transformed\jetified-room-runtime\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\5540668fe0fd1dbbda75b245fc4c28df\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\5540668fe0fd1dbbda75b245fc4c28df\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.test:core:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f58ed41ee4193a86f87123271e9bc6b\transformed\jetified-core-1.7.0\AndroidManifest.xml:26:5-51:19
+MERGED from [androidx.test:core:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f58ed41ee4193a86f87123271e9bc6b\transformed\jetified-core-1.7.0\AndroidManifest.xml:26:5-51:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f3fee2f6c8d1c1e1ca1373c0917f66f\transformed\jetified-window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f3fee2f6c8d1c1e1ca1373c0917f66f\transformed\jetified-window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.16.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f6075dddbc52ad370fc1938709185987\transformed\core-1.16.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.16.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f6075dddbc52ad370fc1938709185987\transformed\core-1.16.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\47f098a3c25eeb19e82c73db75392a92\transformed\jetified-lifecycle-process-2.9.4\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\47f098a3c25eeb19e82c73db75392a92\transformed\jetified-lifecycle-process-2.9.4\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\faa307491040cc56d9d7ade091b5c17c\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\faa307491040cc56d9d7ade091b5c17c\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\1018eeb4ee9818c44ce9c00cc8dbc234\transformed\jetified-play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\1018eeb4ee9818c44ce9c00cc8dbc234\transformed\jetified-play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.8.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\5777b7e172b7f896cbe191ccee9beefe\transformed\jetified-play-services-basement-18.8.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.8.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\5777b7e172b7f896cbe191ccee9beefe\transformed\jetified-play-services-basement-18.8.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.fragment:fragment-testing-manifest:1.8.9] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\510a8236ecd53f77694dfc72b744caef\transformed\jetified-fragment-testing-manifest-1.8.9\AndroidManifest.xml:25:5-36:19
+MERGED from [androidx.fragment:fragment-testing-manifest:1.8.9] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\510a8236ecd53f77694dfc72b744caef\transformed\jetified-fragment-testing-manifest-1.8.9\AndroidManifest.xml:25:5-36:19
+MERGED from [androidx.fragment:fragment-testing:1.8.9] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\34adf76af0f3761e6273aa4c1686f53e\transformed\jetified-fragment-testing-1.8.9\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.fragment:fragment-testing:1.8.9] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\34adf76af0f3761e6273aa4c1686f53e\transformed\jetified-fragment-testing-1.8.9\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.test:runner:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\5b721fa156d110cf3141d534629d31f0\transformed\runner-1.7.0\AndroidManifest.xml:30:5-20
+MERGED from [androidx.test:runner:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\5b721fa156d110cf3141d534629d31f0\transformed\runner-1.7.0\AndroidManifest.xml:30:5-20
+MERGED from [androidx.startup:startup-runtime:1.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\de4dc66f24221266fb81f95fa5a43d7a\transformed\jetified-startup-runtime-1.2.0\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.startup:startup-runtime:1.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\de4dc66f24221266fb81f95fa5a43d7a\transformed\jetified-startup-runtime-1.2.0\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\7b25aab632ba9c5ba01c33b34173bfc5\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\7b25aab632ba9c5ba01c33b34173bfc5\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\641b20e719ff9d4b28fc2a1921b9452d\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\641b20e719ff9d4b28fc2a1921b9452d\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:11:5-19:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.16.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f6075dddbc52ad370fc1938709185987\transformed\core-1.16.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:17:9-35
+	android:label
+		ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:15:9-41
+	android:fullBackupContent
+		ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:13:9-54
+	android:roundIcon
+		ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:16:9-55
+	tools:targetApi
+		ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:19:9-29
+	android:icon
+		ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:14:9-44
+	android:allowBackup
+		ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:11:9-35
+	android:theme
+		ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:18:9-48
+	android:dataExtractionRules
+		ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:12:9-65
+	android:name
+		ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:10:9-56
+activity#com.batakantonio.bikeandrun.ui.maps.MapsActivity
+ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:21:9-24:57
+	android:parentActivityName
+		ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:24:13-55
+	android:exported
+		ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:23:13-36
+	android:name
+		ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:22:13-49
+activity#com.batakantonio.bikeandrun.ui.EditRecordsActivity
+ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:25:9-27:39
+	android:exported
+		ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:27:13-36
+	android:name
+		ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:26:13-51
+activity#com.batakantonio.bikeandrun.data.firebase.auth.ForgotPasswordActivity
+ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:28:9-30:40
+	android:exported
+		ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:29:13-70
+activity#com.batakantonio.bikeandrun.data.firebase.users.UpdateUserActivity
+ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:31:9-34:80
+	android:parentActivityName
+		ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:34:13-77
+	android:exported
+		ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:33:13-36
+	android:name
+		ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:32:13-67
+activity#com.batakantonio.bikeandrun.data.firebase.users.AddUsersActivity
+ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:35:9-38:58
+	android:parentActivityName
+		ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:38:13-55
+	android:exported
+		ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:37:13-36
+	android:name
+		ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:36:13-65
+activity#com.batakantonio.bikeandrun.data.firebase.FirebaseMainActivity
+ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:39:9-42:58
+	android:parentActivityName
+		ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:42:13-55
+	android:exported
+		ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:41:13-36
+	android:name
+		ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:40:13-63
+activity#com.batakantonio.bikeandrun.data.firebase.auth.SignInActivity
+ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:43:9-46:58
+	android:parentActivityName
+		ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:46:13-55
+	android:exported
+		ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:45:13-36
+	android:name
+		ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:44:13-62
+activity#com.batakantonio.bikeandrun.data.firebase.auth.SingUpActivity
+ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:47:9-50:58
+	android:parentActivityName
+		ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:50:13-55
+	android:exported
+		ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:49:13-36
+	android:name
+		ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:48:13-62
+activity#com.batakantonio.bikeandrun.MainActivity
+ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:51:9-59:20
+	android:exported
+		ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:53:13-36
+	android:name
+		ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:52:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:54:13-58:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:55:17-69
+	android:name
+		ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:55:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:57:17-77
+	android:name
+		ADDED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:57:27-74
+uses-sdk
+INJECTED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:8.10.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\d6966e533f4edc2892a2b19f32a89317\transformed\jetified-viewbinding-8.10.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.10.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\d6966e533f4edc2892a2b19f32a89317\transformed\jetified-viewbinding-8.10.1\AndroidManifest.xml:5:5-44
+MERGED from [com.vmadalin:easypermissions-ktx:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\941e336170986db3c1a02b7e4b5bc07c\transformed\jetified-easypermissions-ktx-1.0.0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.vmadalin:easypermissions-ktx:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\941e336170986db3c1a02b7e4b5bc07c\transformed\jetified-easypermissions-ktx-1.0.0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:6:5-44
+MERGED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:6:5-44
+MERGED from [io.insert-koin:koin-androidx-navigation:4.1.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\8dfd3e31db2f8ee9f4b882a7c232d56e\transformed\jetified-koin-androidx-navigation-4.1.1\AndroidManifest.xml:5:5-44
+MERGED from [io.insert-koin:koin-androidx-navigation:4.1.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\8dfd3e31db2f8ee9f4b882a7c232d56e\transformed\jetified-koin-androidx-navigation-4.1.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-android:2.9.5] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\c90717f5406cad165b9040e4ffc1b2e8\transformed\jetified-navigation-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-android:2.9.5] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\c90717f5406cad165b9040e4ffc1b2e8\transformed\jetified-navigation-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-android:2.9.5] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\35f32e296604f7739fb419d23ed282df\transformed\jetified-navigation-common-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-android:2.9.5] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\35f32e296604f7739fb419d23ed282df\transformed\jetified-navigation-common-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.9.5] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\dfe961dfd2e8e1470ebb7647ddbafc1e\transformed\navigation-fragment-2.9.5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.9.5] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\dfe961dfd2e8e1470ebb7647ddbafc1e\transformed\navigation-fragment-2.9.5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.9.5] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\17e715c344b50ed252e658b4935bebfc\transformed\navigation-fragment-ktx-2.9.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.9.5] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\17e715c344b50ed252e658b4935bebfc\transformed\navigation-fragment-ktx-2.9.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui-ktx:2.9.5] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\13555c754fa6ab838cc58a3090ad4704\transformed\navigation-ui-ktx-2.9.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui-ktx:2.9.5] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\13555c754fa6ab838cc58a3090ad4704\transformed\navigation-ui-ktx-2.9.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui:2.9.5] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\833c2b68f479fc3a659ff4b413ad4dc6\transformed\navigation-ui-2.9.5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui:2.9.5] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\833c2b68f479fc3a659ff4b413ad4dc6\transformed\navigation-ui-2.9.5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\651c146452551155d0dd6de5a4027066\transformed\material-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\651c146452551155d0dd6de5a4027066\transformed\material-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\e8952e8aa112adc2a5f319c694c252c8\transformed\constraintlayout-2.2.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\e8952e8aa112adc2a5f319c694c252c8\transformed\constraintlayout-2.2.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\adab4ab156efbb14e9edf1f9979a1eda\transformed\jetified-appcompat-resources-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\adab4ab156efbb14e9edf1f9979a1eda\transformed\jetified-appcompat-resources-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-ktx:23.2.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\06e4a3a000b5098c663faa6926fff455\transformed\jetified-firebase-auth-ktx-23.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-ktx:23.2.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\06e4a3a000b5098c663faa6926fff455\transformed\jetified-firebase-auth-ktx-23.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f0a9f3bd628fb6bffb2c937d1fcaf291\transformed\jetified-firebase-auth-24.0.1\AndroidManifest.xml:21:5-23:151
+MERGED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f0a9f3bd628fb6bffb2c937d1fcaf291\transformed\jetified-firebase-auth-24.0.1\AndroidManifest.xml:21:5-23:151
+MERGED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\28a1eb1bc94777a12893fd4b07f541db\transformed\jetified-credentials-play-services-auth-1.5.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\28a1eb1bc94777a12893fd4b07f541db\transformed\jetified-credentials-play-services-auth-1.5.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\c6413c7b7c272c18897da09d6946a36e\transformed\jetified-googleid-1.1.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\c6413c7b7c272c18897da09d6946a36e\transformed\jetified-googleid-1.1.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.credentials:credentials:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\1320edc134eea3a95369b9b3e0625ad9\transformed\jetified-credentials-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.credentials:credentials:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\1320edc134eea3a95369b9b3e0625ad9\transformed\jetified-credentials-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.biometric:biometric:1.1.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\40dd15e54890a45733c5e5a638c5f753\transformed\biometric-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.biometric:biometric:1.1.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\40dd15e54890a45733c5e5a638c5f753\transformed\biometric-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [io.insert-koin:koin-android:4.1.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\1d39be6de844a1620c37744289115353\transformed\jetified-koin-android-4.1.1\AndroidManifest.xml:5:5-44
+MERGED from [io.insert-koin:koin-android:4.1.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\1d39be6de844a1620c37744289115353\transformed\jetified-koin-android-4.1.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\834c692ca19a03c2547b64023b3fc1dc\transformed\appcompat-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\834c692ca19a03c2547b64023b3fc1dc\transformed\appcompat-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-maps:19.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\17d8e83724fc675f49b995efaea7e0da\transformed\jetified-play-services-maps-19.2.0\AndroidManifest.xml:26:5-43
+MERGED from [com.google.android.gms:play-services-maps:19.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\17d8e83724fc675f49b995efaea7e0da\transformed\jetified-play-services-maps-19.2.0\AndroidManifest.xml:26:5-43
+MERGED from [com.google.android.gms:play-services-auth:21.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ff667efb3b4ee92f7c31c8fb5ee8a271\transformed\jetified-play-services-auth-21.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:21.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ff667efb3b4ee92f7c31c8fb5ee8a271\transformed\jetified-play-services-auth-21.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\8bc0cd2b460e7aa84cdfdd0cde24fe49\transformed\recyclerview-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\8bc0cd2b460e7aa84cdfdd0cde24fe49\transformed\recyclerview-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\90f4bfbfc9d05599fdc9f40fb315749d\transformed\jetified-viewpager2-1.1.0-beta02\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\90f4bfbfc9d05599fdc9f40fb315749d\transformed\jetified-viewpager2-1.1.0-beta02\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.3.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f3fb50ec5dc792928e058fc4985e0aec\transformed\jetified-play-services-location-21.3.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.gms:play-services-location:21.3.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f3fb50ec5dc792928e058fc4985e0aec\transformed\jetified-play-services-location-21.3.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.firebase:firebase-database:22.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f7f6e715c067c2e0d2c536dbaed5652c\transformed\jetified-firebase-database-22.0.1\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-database:22.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f7f6e715c067c2e0d2c536dbaed5652c\transformed\jetified-firebase-database-22.0.1\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-firestore:26.0.2] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\3f17457a170db5dd3c5a4c8d4d3c7c24\transformed\jetified-firebase-firestore-26.0.2\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-firestore:26.0.2] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\3f17457a170db5dd3c5a4c8d4d3c7c24\transformed\jetified-firebase-firestore-26.0.2\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\54e78ac3bfb36263ba8f35da78d603c0\transformed\jetified-play-services-auth-api-phone-18.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\54e78ac3bfb36263ba8f35da78d603c0\transformed\jetified-play-services-auth-api-phone-18.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\a8e0c2e51342b420f975d6ef5ae5a47e\transformed\jetified-play-services-auth-base-18.0.10\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\a8e0c2e51342b420f975d6ef5ae5a47e\transformed\jetified-play-services-auth-base-18.0.10\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:21.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\5809bfe66d5a45f2b1daa5569e709449\transformed\jetified-play-services-fido-21.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:21.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\5809bfe66d5a45f2b1daa5569e709449\transformed\jetified-play-services-fido-21.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-blockstore:16.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\93fc943bb575f7f013a496a475cc3bfd\transformed\jetified-play-services-auth-blockstore-16.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-blockstore:16.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\93fc943bb575f7f013a496a475cc3bfd\transformed\jetified-play-services-auth-blockstore-16.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-identity-credentials:16.0.0-alpha02] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\a61c1a37c888002e2f2e2b878e518784\transformed\jetified-play-services-identity-credentials-16.0.0-alpha02\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-identity-credentials:16.0.0-alpha02] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\a61c1a37c888002e2f2e2b878e518784\transformed\jetified-play-services-identity-credentials-16.0.0-alpha02\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\728b7bda8e6fa34d86bda3ddda8db696\transformed\jetified-firebase-appcheck-interop-17.1.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\728b7bda8e6fa34d86bda3ddda8db696\transformed\jetified-firebase-appcheck-interop-17.1.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\5b2ba2dae02b1b3cece1f3a02ef34d44\transformed\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\5b2ba2dae02b1b3cece1f3a02ef34d44\transformed\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\aab1b5bfb7d7c7e7c2b8d5629deb1f28\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\aab1b5bfb7d7c7e7c2b8d5629deb1f28\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\2c9fdb53e7c7d02b8acc2c15b60bb364\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\2c9fdb53e7c7d02b8acc2c15b60bb364\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ff4b63be58bfb15f86f5c927053b9356\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ff4b63be58bfb15f86f5c927053b9356\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\c02fda28af9353995c6fa5c1fb99bd98\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\c02fda28af9353995c6fa5c1fb99bd98\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\7d90e775f46ec5134fa06572c36d32b6\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\7d90e775f46ec5134fa06572c36d32b6\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\d705b4666bd1d302fb150ff02d011d9f\transformed\jetified-firebase-common-22.0.1\AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\d705b4666bd1d302fb150ff02d011d9f\transformed\jetified-firebase-common-22.0.1\AndroidManifest.xml:19:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\af4ec130a78ac83b18382837196bb146\transformed\jetified-recaptcha-18.6.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\af4ec130a78ac83b18382837196bb146\transformed\jetified-recaptcha-18.6.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\9ed18b9e149eca285748ce6235468d5a\transformed\jetified-integrity-1.3.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\9ed18b9e149eca285748ce6235468d5a\transformed\jetified-integrity-1.3.0\AndroidManifest.xml:4:5-44
+MERGED from [androidx.work:work-runtime-ktx:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\185a20f3734c1883ee8cc7b8682b22e5\transformed\work-runtime-ktx-2.11.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.work:work-runtime-ktx:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\185a20f3734c1883ee8cc7b8682b22e5\transformed\work-runtime-ktx-2.11.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime-android:2.8.3] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\bfe9c83f5b84872f290cdd85e49b8775\transformed\jetified-room-runtime\AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime-android:2.8.3] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\bfe9c83f5b84872f290cdd85e49b8775\transformed\jetified-room-runtime\AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-ktx:2.8.3] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4857b6ba55ebcc1f71c8f0a5ee7453e5\transformed\jetified-room-ktx-2.8.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.8.3] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4857b6ba55ebcc1f71c8f0a5ee7453e5\transformed\jetified-room-ktx-2.8.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\7d1c6810732cc957ad5d6f54de0a08a8\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\7d1c6810732cc957ad5d6f54de0a08a8\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f66237eba8a3d0134dcc84f8528d0359\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f66237eba8a3d0134dcc84f8528d0359\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.1.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\3d25f4c8748095171b125e2d8a0385b4\transformed\loader-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.1.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\3d25f4c8748095171b125e2d8a0385b4\transformed\loader-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\6e57c54b54a4b1e67df105c2c222a6bb\transformed\jetified-emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\6e57c54b54a4b1e67df105c2c222a6bb\transformed\jetified-emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\5540668fe0fd1dbbda75b245fc4c28df\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\5540668fe0fd1dbbda75b245fc4c28df\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\08b38da6881338a1bc8e0b940f0618eb\transformed\jetified-customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\08b38da6881338a1bc8e0b940f0618eb\transformed\jetified-customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ffeed86e0297904b2c4acf7e84b20730\transformed\jetified-graphics-shapes-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ffeed86e0297904b2c4acf7e84b20730\transformed\jetified-graphics-shapes-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.test:core:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f58ed41ee4193a86f87123271e9bc6b\transformed\jetified-core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:core:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f58ed41ee4193a86f87123271e9bc6b\transformed\jetified-core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.10.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\38a236c21f37e8188702b3d1f47da7b4\transformed\jetified-activity-ktx-1.10.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.10.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\38a236c21f37e8188702b3d1f47da7b4\transformed\jetified-activity-ktx-1.10.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.10.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\bae8783e1409fd7de9e409c1b15c15ce\transformed\jetified-activity-1.10.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.10.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\bae8783e1409fd7de9e409c1b15c15ce\transformed\jetified-activity-1.10.1\AndroidManifest.xml:20:5-44
+MERGED from [io.insert-koin:koin-core-viewmodel-android:4.1.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\01c855f4bbb59af9408abea344b5484b\transformed\jetified-koin-core-viewmodel-release\AndroidManifest.xml:5:5-44
+MERGED from [io.insert-koin:koin-core-viewmodel-android:4.1.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\01c855f4bbb59af9408abea344b5484b\transformed\jetified-koin-core-viewmodel-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.9.4] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\9fe9bcbd29970097f6d22690df681682\transformed\lifecycle-viewmodel-2.9.4\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.9.4] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\9fe9bcbd29970097f6d22690df681682\transformed\lifecycle-viewmodel-2.9.4\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.9.4] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\e2eadfee117ca09453c2c1a97f892c61\transformed\jetified-lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.9.4] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\e2eadfee117ca09453c2c1a97f892c61\transformed\jetified-lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.3.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\426f7c062463dba10f6d2d7d1f57af19\transformed\jetified-savedstate-ktx-1.3.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.3.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\426f7c062463dba10f6d2d7d1f57af19\transformed\jetified-savedstate-ktx-1.3.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-android:1.3.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\9959e2f916adc424f78d83a6bcf96c39\transformed\jetified-savedstate-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-android:1.3.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\9959e2f916adc424f78d83a6bcf96c39\transformed\jetified-savedstate-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.9.4] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\0ba8a701cfcc2c11ec39766fb57665ee\transformed\jetified-lifecycle-viewmodel-savedstate-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.9.4] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\0ba8a701cfcc2c11ec39766fb57665ee\transformed\jetified-lifecycle-viewmodel-savedstate-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.16.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4066878df5c342f5f6e8964c5a3db746\transformed\jetified-core-ktx-1.16.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.16.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4066878df5c342f5f6e8964c5a3db746\transformed\jetified-core-ktx-1.16.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\05fc313f9cdfadf3f5e7d457adfff2ea\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\05fc313f9cdfadf3f5e7d457adfff2ea\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\d9c6ccbbf10fa409f24ab0bbe7518e30\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\d9c6ccbbf10fa409f24ab0bbe7518e30\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\b68191ffe8398adef7eb4d7c6d655dc6\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\b68191ffe8398adef7eb4d7c6d655dc6\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f5d1af9d2f7a9cbcf7d7cc094b2f82b3\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f5d1af9d2f7a9cbcf7d7cc094b2f82b3\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\b705b7c646351dccdf69f8b62ac5a4bc\transformed\dynamicanimation-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\b705b7c646351dccdf69f8b62ac5a4bc\transformed\dynamicanimation-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\9d75fa32d823d2b5742e6f744e294c7d\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\9d75fa32d823d2b5742e6f744e294c7d\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\d79e1061009cd3f07e157f19c7f0c295\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\d79e1061009cd3f07e157f19c7f0c295\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\a79c0beff90a7334a65dd0a3579da336\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\a79c0beff90a7334a65dd0a3579da336\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\a03badc22295b70f37d44ddda33b6dd1\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\a03badc22295b70f37d44ddda33b6dd1\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\b782086382a6496a399f70f4c19779cb\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\b782086382a6496a399f70f4c19779cb\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\355abf597b23561e57267bc34c125cd4\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\355abf597b23561e57267bc34c125cd4\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f3fee2f6c8d1c1e1ca1373c0917f66f\transformed\jetified-window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f3fee2f6c8d1c1e1ca1373c0917f66f\transformed\jetified-window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\277379c460a5888bd6c3e9c600ae87c0\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\277379c460a5888bd6c3e9c600ae87c0\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\84895e35e2db32a9f315b2128b383bbf\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\84895e35e2db32a9f315b2128b383bbf\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.16.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f6075dddbc52ad370fc1938709185987\transformed\core-1.16.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.16.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f6075dddbc52ad370fc1938709185987\transformed\core-1.16.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.9.4] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4badf397fcf9d82140c18483bff94488\transformed\lifecycle-runtime-2.9.4\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.9.4] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4badf397fcf9d82140c18483bff94488\transformed\lifecycle-runtime-2.9.4\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.9.4] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\c1fe607500d29e3c43ac80fdac528ef8\transformed\jetified-lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.9.4] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\c1fe607500d29e3c43ac80fdac528ef8\transformed\jetified-lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.9.4] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\c3596a5274ba554fb0521ac5fba040f0\transformed\lifecycle-livedata-2.9.4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.9.4] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\c3596a5274ba554fb0521ac5fba040f0\transformed\lifecycle-livedata-2.9.4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\47f098a3c25eeb19e82c73db75392a92\transformed\jetified-lifecycle-process-2.9.4\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\47f098a3c25eeb19e82c73db75392a92\transformed\jetified-lifecycle-process-2.9.4\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.9.4] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\bcf1ea80a0acf9ba8179f8ea14971323\transformed\lifecycle-livedata-core-2.9.4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.9.4] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\bcf1ea80a0acf9ba8179f8ea14971323\transformed\lifecycle-livedata-core-2.9.4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.4] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\08653d2653a698e64d657946a26d2a45\transformed\jetified-lifecycle-viewmodel-ktx-2.9.4\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.4] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\08653d2653a698e64d657946a26d2a45\transformed\jetified-lifecycle-viewmodel-ktx-2.9.4\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.9.4] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\b83a661b9607ec43efbafd81d5bc0139\transformed\jetified-lifecycle-livedata-core-ktx-2.9.4\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.9.4] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\b83a661b9607ec43efbafd81d5bc0139\transformed\jetified-lifecycle-livedata-core-ktx-2.9.4\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.9.4] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\57604ccc8df192505dadb0539d32072f\transformed\jetified-lifecycle-service-2.9.4\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.9.4] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\57604ccc8df192505dadb0539d32072f\transformed\jetified-lifecycle-service-2.9.4\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.4] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\1d3ab9fa5f0dff1f6ea1a04a431008d9\transformed\jetified-lifecycle-runtime-ktx\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.4] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\1d3ab9fa5f0dff1f6ea1a04a431008d9\transformed\jetified-lifecycle-runtime-ktx\AndroidManifest.xml:5:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\faa307491040cc56d9d7ade091b5c17c\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\faa307491040cc56d9d7ade091b5c17c\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.7] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\17839df17cd8a74819dccdc82b47dc7f\transformed\jetified-datastore-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.7] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\17839df17cd8a74819dccdc82b47dc7f\transformed\jetified-datastore-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-preferences-core-android:1.1.7] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\7a07f4bae4010dfdd091caba77be3403\transformed\jetified-datastore-preferences-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-preferences-core-android:1.1.7] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\7a07f4bae4010dfdd091caba77be3403\transformed\jetified-datastore-preferences-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.7] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\930a350330a924e84c64db8888c33eea\transformed\jetified-datastore-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.7] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\930a350330a924e84c64db8888c33eea\transformed\jetified-datastore-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.7] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\2b243c872561e99085ddc30cf2cddb49\transformed\jetified-datastore-preferences-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.7] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\2b243c872561e99085ddc30cf2cddb49\transformed\jetified-datastore-preferences-release\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\1018eeb4ee9818c44ce9c00cc8dbc234\transformed\jetified-play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\1018eeb4ee9818c44ce9c00cc8dbc234\transformed\jetified-play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.8.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\5777b7e172b7f896cbe191ccee9beefe\transformed\jetified-play-services-basement-18.8.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.8.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\5777b7e172b7f896cbe191ccee9beefe\transformed\jetified-play-services-basement-18.8.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.8.9] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\e6f914fc1340d2697a58221c2c5b267f\transformed\fragment-1.8.9\AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.8.9] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\e6f914fc1340d2697a58221c2c5b267f\transformed\fragment-1.8.9\AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment-testing-manifest:1.8.9] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\510a8236ecd53f77694dfc72b744caef\transformed\jetified-fragment-testing-manifest-1.8.9\AndroidManifest.xml:21:5-44
+MERGED from [androidx.fragment:fragment-testing-manifest:1.8.9] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\510a8236ecd53f77694dfc72b744caef\transformed\jetified-fragment-testing-manifest-1.8.9\AndroidManifest.xml:21:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.8.9] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\426c51be924932d6e5b452f995066277\transformed\jetified-fragment-ktx-1.8.9\AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.8.9] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\426c51be924932d6e5b452f995066277\transformed\jetified-fragment-ktx-1.8.9\AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment-testing:1.8.9] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\34adf76af0f3761e6273aa4c1686f53e\transformed\jetified-fragment-testing-1.8.9\AndroidManifest.xml:20:5-22:54
+MERGED from [androidx.fragment:fragment-testing:1.8.9] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\34adf76af0f3761e6273aa4c1686f53e\transformed\jetified-fragment-testing-1.8.9\AndroidManifest.xml:20:5-22:54
+MERGED from [androidx.test:rules:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\e123b4885da20f1a07d86acaacb2dd28\transformed\rules-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:rules:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\e123b4885da20f1a07d86acaacb2dd28\transformed\rules-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:runner:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\5b721fa156d110cf3141d534629d31f0\transformed\runner-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:runner:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\5b721fa156d110cf3141d534629d31f0\transformed\runner-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.services:storage:1.6.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\751aec1d11f692aa039107ae9d5b00c6\transformed\jetified-storage-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.services:storage:1.6.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\751aec1d11f692aa039107ae9d5b00c6\transformed\jetified-storage-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:monitor:1.8.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\fd312d0504527f8b649a08f96924f40c\transformed\monitor-1.8.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:monitor:1.8.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\fd312d0504527f8b649a08f96924f40c\transformed\monitor-1.8.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\8f1cac35dc7fe9b74adb432aec46ca6e\transformed\jetified-core-viewtree-1.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\8f1cac35dc7fe9b74adb432aec46ca6e\transformed\jetified-core-viewtree-1.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.startup:startup-runtime:1.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\de4dc66f24221266fb81f95fa5a43d7a\transformed\jetified-startup-runtime-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\de4dc66f24221266fb81f95fa5a43d7a\transformed\jetified-startup-runtime-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\3ce8007fad40af4cc7493923da8b47ec\transformed\jetified-tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\3ce8007fad40af4cc7493923da8b47ec\transformed\jetified-tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing-ktx:1.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\a9ea5472a310462dd65589bc946de8b6\transformed\jetified-tracing-ktx-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing-ktx:1.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\a9ea5472a310462dd65589bc946de8b6\transformed\jetified-tracing-ktx-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\72b8558c76699cc3335d1432f992b2e3\transformed\jetified-annotation-experimental-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\72b8558c76699cc3335d1432f992b2e3\transformed\jetified-annotation-experimental-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\b6cc847cddec1d89863b70ef34f01927\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\b6cc847cddec1d89863b70ef34f01927\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\1c04e53f205668eb67fa1d2735b83664\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\1c04e53f205668eb67fa1d2735b83664\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:19.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\913151a76bc0ca75c91b7653fdbec088\transformed\jetified-firebase-components-19.0.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:19.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\913151a76bc0ca75c91b7653fdbec088\transformed\jetified-firebase-components-19.0.0\AndroidManifest.xml:18:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\15017b453ae460e852c98a4f7980cb34\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\15017b453ae460e852c98a4f7980cb34\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\7b25aab632ba9c5ba01c33b34173bfc5\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\7b25aab632ba9c5ba01c33b34173bfc5\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f0e5552d8eb02bc2eae8069289fb8706\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f0e5552d8eb02bc2eae8069289fb8706\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\1982411480694fe3a4e2b390fb7bd666\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\1982411480694fe3a4e2b390fb7bd666\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\928835cd416ff6ebbc2672ad836e9616\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\928835cd416ff6ebbc2672ad836e9616\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\7284f65a83bbe13eb4a3c88f285870e6\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\7284f65a83bbe13eb4a3c88f285870e6\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework-android:2.6.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\df05cd437fabd19eab02e861156e55f0\transformed\jetified-sqlite-framework\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework-android:2.6.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\df05cd437fabd19eab02e861156e55f0\transformed\jetified-sqlite-framework\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-android:2.6.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ead51f2b1ee051fa14bcd28d63484f41\transformed\jetified-sqlite\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-android:2.6.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ead51f2b1ee051fa14bcd28d63484f41\transformed\jetified-sqlite\AndroidManifest.xml:20:5-44
+MERGED from [io.grpc:grpc-android:1.62.2] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db8e534677ae61ae5feeb78e66bc1f42\transformed\jetified-grpc-android-1.62.2\AndroidManifest.xml:5:5-44
+MERGED from [io.grpc:grpc-android:1.62.2] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db8e534677ae61ae5feeb78e66bc1f42\transformed\jetified-grpc-android-1.62.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\9b1f9d0e140d8dee629dab90284923c3\transformed\jetified-protolite-well-known-types-18.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\9b1f9d0e140d8dee629dab90284923c3\transformed\jetified-protolite-well-known-types-18.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\641b20e719ff9d4b28fc2a1921b9452d\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\641b20e719ff9d4b28fc2a1921b9452d\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:7:5-9:41
+	tools:overrideLibrary
+		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f0a9f3bd628fb6bffb2c937d1fcaf291\transformed\jetified-firebase-auth-24.0.1\AndroidManifest.xml:23:9-148
+	android:targetSdkVersion
+		INJECTED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml
+activity#com.vmadalin.easypermissions.components.TestActivity
+ADDED from [com.vmadalin:easypermissions-ktx:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\941e336170986db3c1a02b7e4b5bc07c\transformed\jetified-easypermissions-ktx-1.0.0\AndroidManifest.xml:13:9-89
+	android:name
+		ADDED from [com.vmadalin:easypermissions-ktx:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\941e336170986db3c1a02b7e4b5bc07c\transformed\jetified-easypermissions-ktx-1.0.0\AndroidManifest.xml:13:19-86
+activity#com.vmadalin.easypermissions.components.TestAppCompatActivity
+ADDED from [com.vmadalin:easypermissions-ktx:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\941e336170986db3c1a02b7e4b5bc07c\transformed\jetified-easypermissions-ktx-1.0.0\AndroidManifest.xml:14:9-98
+	android:name
+		ADDED from [com.vmadalin:easypermissions-ktx:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\941e336170986db3c1a02b7e4b5bc07c\transformed\jetified-easypermissions-ktx-1.0.0\AndroidManifest.xml:14:19-95
+activity#com.vmadalin.easypermissions.components.TestSupportFragmentActivity
+ADDED from [com.vmadalin:easypermissions-ktx:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\941e336170986db3c1a02b7e4b5bc07c\transformed\jetified-easypermissions-ktx-1.0.0\AndroidManifest.xml:15:9-104
+	android:name
+		ADDED from [com.vmadalin:easypermissions-ktx:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\941e336170986db3c1a02b7e4b5bc07c\transformed\jetified-easypermissions-ktx-1.0.0\AndroidManifest.xml:15:19-101
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:8:5-79
+MERGED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f0a9f3bd628fb6bffb2c937d1fcaf291\transformed\jetified-firebase-auth-24.0.1\AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f0a9f3bd628fb6bffb2c937d1fcaf291\transformed\jetified-firebase-auth-24.0.1\AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-maps:19.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\17d8e83724fc675f49b995efaea7e0da\transformed\jetified-play-services-maps-19.2.0\AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-maps:19.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\17d8e83724fc675f49b995efaea7e0da\transformed\jetified-play-services-maps-19.2.0\AndroidManifest.xml:20:5-78
+MERGED from [com.google.firebase:firebase-database:22.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f7f6e715c067c2e0d2c536dbaed5652c\transformed\jetified-firebase-database-22.0.1\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-database:22.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f7f6e715c067c2e0d2c536dbaed5652c\transformed\jetified-firebase-database-22.0.1\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-firestore:26.0.2] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\3f17457a170db5dd3c5a4c8d4d3c7c24\transformed\jetified-firebase-firestore-26.0.2\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-firestore:26.0.2] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\3f17457a170db5dd3c5a4c8d4d3c7c24\transformed\jetified-firebase-firestore-26.0.2\AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\af4ec130a78ac83b18382837196bb146\transformed\jetified-recaptcha-18.6.1\AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\af4ec130a78ac83b18382837196bb146\transformed\jetified-recaptcha-18.6.1\AndroidManifest.xml:8:5-79
+MERGED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:24:5-79
+MERGED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:24:5-79
+MERGED from [io.grpc:grpc-android:1.62.2] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db8e534677ae61ae5feeb78e66bc1f42\transformed\jetified-grpc-android-1.62.2\AndroidManifest.xml:7:5-79
+MERGED from [io.grpc:grpc-android:1.62.2] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db8e534677ae61ae5feeb78e66bc1f42\transformed\jetified-grpc-android-1.62.2\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:8:22-76
+uses-permission#android.permission.INTERNET
+ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:9:5-67
+MERGED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f0a9f3bd628fb6bffb2c937d1fcaf291\transformed\jetified-firebase-auth-24.0.1\AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f0a9f3bd628fb6bffb2c937d1fcaf291\transformed\jetified-firebase-auth-24.0.1\AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.gms:play-services-maps:19.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\17d8e83724fc675f49b995efaea7e0da\transformed\jetified-play-services-maps-19.2.0\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-maps:19.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\17d8e83724fc675f49b995efaea7e0da\transformed\jetified-play-services-maps-19.2.0\AndroidManifest.xml:21:5-66
+MERGED from [com.google.firebase:firebase-database:22.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f7f6e715c067c2e0d2c536dbaed5652c\transformed\jetified-firebase-database-22.0.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-database:22.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f7f6e715c067c2e0d2c536dbaed5652c\transformed\jetified-firebase-database-22.0.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-firestore:26.0.2] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\3f17457a170db5dd3c5a4c8d4d3c7c24\transformed\jetified-firebase-firestore-26.0.2\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-firestore:26.0.2] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\3f17457a170db5dd3c5a4c8d4d3c7c24\transformed\jetified-firebase-firestore-26.0.2\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\af4ec130a78ac83b18382837196bb146\transformed\jetified-recaptcha-18.6.1\AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\af4ec130a78ac83b18382837196bb146\transformed\jetified-recaptcha-18.6.1\AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:9:22-64
+queries
+ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:13:5-21:15
+MERGED from [com.google.android.gms:play-services-maps:19.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\17d8e83724fc675f49b995efaea7e0da\transformed\jetified-play-services-maps-19.2.0\AndroidManifest.xml:27:5-30:15
+MERGED from [com.google.android.gms:play-services-maps:19.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\17d8e83724fc675f49b995efaea7e0da\transformed\jetified-play-services-maps-19.2.0\AndroidManifest.xml:27:5-30:15
+MERGED from [androidx.test:runner:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\5b721fa156d110cf3141d534629d31f0\transformed\runner-1.7.0\AndroidManifest.xml:24:5-28:15
+MERGED from [androidx.test:runner:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\5b721fa156d110cf3141d534629d31f0\transformed\runner-1.7.0\AndroidManifest.xml:24:5-28:15
+intent#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+data:scheme:http
+ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:14:9-20:18
+action#android.intent.action.VIEW
+ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:15:13-65
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:15:21-62
+category#android.intent.category.BROWSABLE
+ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:17:13-74
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:17:23-71
+data
+ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:19:13-43
+	android:scheme
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:19:19-40
+meta-data#com.google.android.gms.version
+ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:24:9-26:69
+MERGED from [com.google.android.gms:play-services-basement:18.8.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\5777b7e172b7f896cbe191ccee9beefe\transformed\jetified-play-services-basement-18.8.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:18.8.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\5777b7e172b7f896cbe191ccee9beefe\transformed\jetified-play-services-basement-18.8.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:26:13-66
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:25:13-58
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:27:9-29:63
+	android:value
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:29:13-60
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:28:13-58
+activity#com.firebase.ui.auth.KickoffActivity
+ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:31:9-35:61
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:34:13-29
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:33:13-37
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:35:13-58
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:32:13-64
+activity#com.firebase.ui.auth.ui.idp.SingleSignInActivity
+ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:36:9-40:61
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:39:13-29
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:38:13-37
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:40:13-58
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:37:13-76
+activity#com.firebase.ui.auth.ui.credentials.CredentialSaveActivity
+ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:41:9-45:61
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:44:13-29
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:43:13-37
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:45:13-58
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:42:13-86
+activity#com.firebase.ui.auth.ui.email.RecoverPasswordActivity
+ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:46:9-50:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:49:13-72
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:50:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:48:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:47:13-81
+activity#com.firebase.ui.auth.ui.email.EmailActivity
+ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:51:9-55:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:54:13-56
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:55:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:53:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:52:13-71
+activity#com.firebase.ui.auth.ui.phone.PhoneActivity
+ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:56:9-60:77
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:59:13-66
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:60:13-74
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:58:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:57:13-71
+activity#com.firebase.ui.auth.ui.idp.WelcomeBackIdpPrompt
+ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:61:9-65:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:64:13-70
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:65:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:63:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:62:13-76
+activity#com.firebase.ui.auth.ui.email.WelcomeBackPasswordPrompt
+ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:66:9-70:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:69:13-75
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:70:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:68:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:67:13-83
+activity#com.firebase.ui.auth.ui.email.WelcomeBackEmailLinkPrompt
+ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:71:9-75:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:74:13-75
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:75:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:73:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:72:13-84
+activity#com.firebase.ui.auth.ui.email.EmailLinkCatcherActivity
+ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:76:9-81:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:79:13-29
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:81:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:78:13-37
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:80:13-58
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:77:13-82
+activity#com.firebase.ui.auth.ui.email.EmailLinkErrorRecoveryActivity
+ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:82:9-86:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:85:13-56
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:86:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:84:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:83:13-88
+activity#com.firebase.ui.auth.ui.idp.AuthMethodPickerActivity
+ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:87:9-90:65
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:90:13-62
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:89:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:88:13-80
+activity#com.facebook.FacebookActivity
+ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:91:9-95:48
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:94:13-45
+	tools:ignore
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:95:13-45
+	android:configChanges
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:93:13-96
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:92:13-57
+activity#com.facebook.CustomTabActivity
+ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:96:9-108:20
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:98:13-36
+	tools:ignore
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:99:13-45
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:97:13-58
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:@string/facebook_login_protocol_scheme
+ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:100:13-107:29
+category#android.intent.category.DEFAULT
+ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:103:17-76
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:103:27-73
+provider#com.firebase.ui.auth.data.client.AuthUiInitProvider
+ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:110:9-114:38
+	android:authorities
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:112:13-70
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:113:13-37
+	android:initOrder
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:114:13-35
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:111:13-79
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth-ktx:23.2.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\06e4a3a000b5098c663faa6926fff455\transformed\jetified-firebase-auth-ktx-23.2.1\AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f0a9f3bd628fb6bffb2c937d1fcaf291\transformed\jetified-firebase-auth-24.0.1\AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f0a9f3bd628fb6bffb2c937d1fcaf291\transformed\jetified-firebase-auth-24.0.1\AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-database:22.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f7f6e715c067c2e0d2c536dbaed5652c\transformed\jetified-firebase-database-22.0.1\AndroidManifest.xml:26:9-35:19
+MERGED from [com.google.firebase:firebase-database:22.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f7f6e715c067c2e0d2c536dbaed5652c\transformed\jetified-firebase-database-22.0.1\AndroidManifest.xml:26:9-35:19
+MERGED from [com.google.firebase:firebase-firestore:26.0.2] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\3f17457a170db5dd3c5a4c8d4d3c7c24\transformed\jetified-firebase-firestore-26.0.2\AndroidManifest.xml:14:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:26.0.2] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\3f17457a170db5dd3c5a4c8d4d3c7c24\transformed\jetified-firebase-firestore-26.0.2\AndroidManifest.xml:14:9-23:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\c02fda28af9353995c6fa5c1fb99bd98\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\c02fda28af9353995c6fa5c1fb99bd98\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\d705b4666bd1d302fb150ff02d011d9f\transformed\jetified-firebase-common-22.0.1\AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\d705b4666bd1d302fb150ff02d011d9f\transformed\jetified-firebase-common-22.0.1\AndroidManifest.xml:30:9-38:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth-ktx:23.2.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\06e4a3a000b5098c663faa6926fff455\transformed\jetified-firebase-auth-ktx-23.2.1\AndroidManifest.xml:10:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\d705b4666bd1d302fb150ff02d011d9f\transformed\jetified-firebase-common-22.0.1\AndroidManifest.xml:34:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\d705b4666bd1d302fb150ff02d011d9f\transformed\jetified-firebase-common-22.0.1\AndroidManifest.xml:32:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-auth-ktx:23.2.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\06e4a3a000b5098c663faa6926fff455\transformed\jetified-firebase-auth-ktx-23.2.1\AndroidManifest.xml:9:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthLegacyRegistrar
+ADDED from [com.google.firebase:firebase-auth-ktx:23.2.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\06e4a3a000b5098c663faa6926fff455\transformed\jetified-firebase-auth-ktx-23.2.1\AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth-ktx:23.2.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\06e4a3a000b5098c663faa6926fff455\transformed\jetified-firebase-auth-ktx-23.2.1\AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth-ktx:23.2.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\06e4a3a000b5098c663faa6926fff455\transformed\jetified-firebase-auth-ktx-23.2.1\AndroidManifest.xml:12:17-119
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f0a9f3bd628fb6bffb2c937d1fcaf291\transformed\jetified-firebase-auth-24.0.1\AndroidManifest.xml:29:9-46:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f0a9f3bd628fb6bffb2c937d1fcaf291\transformed\jetified-firebase-auth-24.0.1\AndroidManifest.xml:31:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f0a9f3bd628fb6bffb2c937d1fcaf291\transformed\jetified-firebase-auth-24.0.1\AndroidManifest.xml:33:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f0a9f3bd628fb6bffb2c937d1fcaf291\transformed\jetified-firebase-auth-24.0.1\AndroidManifest.xml:32:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f0a9f3bd628fb6bffb2c937d1fcaf291\transformed\jetified-firebase-auth-24.0.1\AndroidManifest.xml:34:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f0a9f3bd628fb6bffb2c937d1fcaf291\transformed\jetified-firebase-auth-24.0.1\AndroidManifest.xml:30:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f0a9f3bd628fb6bffb2c937d1fcaf291\transformed\jetified-firebase-auth-24.0.1\AndroidManifest.xml:35:13-45:29
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f0a9f3bd628fb6bffb2c937d1fcaf291\transformed\jetified-firebase-auth-24.0.1\AndroidManifest.xml:47:9-64:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f0a9f3bd628fb6bffb2c937d1fcaf291\transformed\jetified-firebase-auth-24.0.1\AndroidManifest.xml:49:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f0a9f3bd628fb6bffb2c937d1fcaf291\transformed\jetified-firebase-auth-24.0.1\AndroidManifest.xml:51:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f0a9f3bd628fb6bffb2c937d1fcaf291\transformed\jetified-firebase-auth-24.0.1\AndroidManifest.xml:50:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f0a9f3bd628fb6bffb2c937d1fcaf291\transformed\jetified-firebase-auth-24.0.1\AndroidManifest.xml:52:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f0a9f3bd628fb6bffb2c937d1fcaf291\transformed\jetified-firebase-auth-24.0.1\AndroidManifest.xml:48:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f0a9f3bd628fb6bffb2c937d1fcaf291\transformed\jetified-firebase-auth-24.0.1\AndroidManifest.xml:53:13-63:29
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f0a9f3bd628fb6bffb2c937d1fcaf291\transformed\jetified-firebase-auth-24.0.1\AndroidManifest.xml:69:13-71:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f0a9f3bd628fb6bffb2c937d1fcaf291\transformed\jetified-firebase-auth-24.0.1\AndroidManifest.xml:71:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f0a9f3bd628fb6bffb2c937d1fcaf291\transformed\jetified-firebase-auth-24.0.1\AndroidManifest.xml:70:17-109
+service#androidx.credentials.playservices.CredentialProviderMetadataHolder
+ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\28a1eb1bc94777a12893fd4b07f541db\transformed\jetified-credentials-play-services-auth-1.5.0\AndroidManifest.xml:24:9-32:19
+	android:enabled
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\28a1eb1bc94777a12893fd4b07f541db\transformed\jetified-credentials-play-services-auth-1.5.0\AndroidManifest.xml:26:13-35
+	android:exported
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\28a1eb1bc94777a12893fd4b07f541db\transformed\jetified-credentials-play-services-auth-1.5.0\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\28a1eb1bc94777a12893fd4b07f541db\transformed\jetified-credentials-play-services-auth-1.5.0\AndroidManifest.xml:28:13-60
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\28a1eb1bc94777a12893fd4b07f541db\transformed\jetified-credentials-play-services-auth-1.5.0\AndroidManifest.xml:25:13-94
+meta-data#androidx.credentials.CREDENTIAL_PROVIDER_KEY
+ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\28a1eb1bc94777a12893fd4b07f541db\transformed\jetified-credentials-play-services-auth-1.5.0\AndroidManifest.xml:29:13-31:104
+	android:value
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\28a1eb1bc94777a12893fd4b07f541db\transformed\jetified-credentials-play-services-auth-1.5.0\AndroidManifest.xml:31:17-101
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\28a1eb1bc94777a12893fd4b07f541db\transformed\jetified-credentials-play-services-auth-1.5.0\AndroidManifest.xml:30:17-76
+activity#androidx.credentials.playservices.HiddenActivity
+ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\28a1eb1bc94777a12893fd4b07f541db\transformed\jetified-credentials-play-services-auth-1.5.0\AndroidManifest.xml:34:9-41:20
+	android:fitsSystemWindows
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\28a1eb1bc94777a12893fd4b07f541db\transformed\jetified-credentials-play-services-auth-1.5.0\AndroidManifest.xml:39:13-45
+	android:enabled
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\28a1eb1bc94777a12893fd4b07f541db\transformed\jetified-credentials-play-services-auth-1.5.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\28a1eb1bc94777a12893fd4b07f541db\transformed\jetified-credentials-play-services-auth-1.5.0\AndroidManifest.xml:38:13-37
+	android:configChanges
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\28a1eb1bc94777a12893fd4b07f541db\transformed\jetified-credentials-play-services-auth-1.5.0\AndroidManifest.xml:36:13-87
+	android:theme
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\28a1eb1bc94777a12893fd4b07f541db\transformed\jetified-credentials-play-services-auth-1.5.0\AndroidManifest.xml:40:13-48
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\28a1eb1bc94777a12893fd4b07f541db\transformed\jetified-credentials-play-services-auth-1.5.0\AndroidManifest.xml:35:13-76
+activity#androidx.credentials.playservices.IdentityCredentialApiHiddenActivity
+ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\28a1eb1bc94777a12893fd4b07f541db\transformed\jetified-credentials-play-services-auth-1.5.0\AndroidManifest.xml:42:9-49:20
+	android:fitsSystemWindows
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\28a1eb1bc94777a12893fd4b07f541db\transformed\jetified-credentials-play-services-auth-1.5.0\AndroidManifest.xml:47:13-45
+	android:enabled
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\28a1eb1bc94777a12893fd4b07f541db\transformed\jetified-credentials-play-services-auth-1.5.0\AndroidManifest.xml:45:13-35
+	android:exported
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\28a1eb1bc94777a12893fd4b07f541db\transformed\jetified-credentials-play-services-auth-1.5.0\AndroidManifest.xml:46:13-37
+	android:configChanges
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\28a1eb1bc94777a12893fd4b07f541db\transformed\jetified-credentials-play-services-auth-1.5.0\AndroidManifest.xml:44:13-87
+	android:theme
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\28a1eb1bc94777a12893fd4b07f541db\transformed\jetified-credentials-play-services-auth-1.5.0\AndroidManifest.xml:48:13-48
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\28a1eb1bc94777a12893fd4b07f541db\transformed\jetified-credentials-play-services-auth-1.5.0\AndroidManifest.xml:43:13-97
+uses-permission#android.permission.USE_BIOMETRIC
+ADDED from [androidx.biometric:biometric:1.1.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\40dd15e54890a45733c5e5a638c5f753\transformed\biometric-1.1.0\AndroidManifest.xml:24:5-72
+	android:name
+		ADDED from [androidx.biometric:biometric:1.1.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\40dd15e54890a45733c5e5a638c5f753\transformed\biometric-1.1.0\AndroidManifest.xml:24:22-69
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from [androidx.biometric:biometric:1.1.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\40dd15e54890a45733c5e5a638c5f753\transformed\biometric-1.1.0\AndroidManifest.xml:27:5-74
+	android:name
+		ADDED from [androidx.biometric:biometric:1.1.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\40dd15e54890a45733c5e5a638c5f753\transformed\biometric-1.1.0\AndroidManifest.xml:27:22-71
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:19.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\17d8e83724fc675f49b995efaea7e0da\transformed\jetified-play-services-maps-19.2.0\AndroidManifest.xml:22:5-24:33
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:19.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\17d8e83724fc675f49b995efaea7e0da\transformed\jetified-play-services-maps-19.2.0\AndroidManifest.xml:23:8-40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:19.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\17d8e83724fc675f49b995efaea7e0da\transformed\jetified-play-services-maps-19.2.0\AndroidManifest.xml:24:8-31
+package#com.google.android.apps.maps
+ADDED from [com.google.android.gms:play-services-maps:19.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\17d8e83724fc675f49b995efaea7e0da\transformed\jetified-play-services-maps-19.2.0\AndroidManifest.xml:29:7-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:19.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\17d8e83724fc675f49b995efaea7e0da\transformed\jetified-play-services-maps-19.2.0\AndroidManifest.xml:29:16-59
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:19.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\17d8e83724fc675f49b995efaea7e0da\transformed\jetified-play-services-maps-19.2.0\AndroidManifest.xml:33:7-86
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:19.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\17d8e83724fc675f49b995efaea7e0da\transformed\jetified-play-services-maps-19.2.0\AndroidManifest.xml:33:59-83
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:19.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\17d8e83724fc675f49b995efaea7e0da\transformed\jetified-play-services-maps-19.2.0\AndroidManifest.xml:33:21-58
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:21.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ff667efb3b4ee92f7c31c8fb5ee8a271\transformed\jetified-play-services-auth-21.4.0\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:21.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ff667efb3b4ee92f7c31c8fb5ee8a271\transformed\jetified-play-services-auth-21.4.0\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:21.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ff667efb3b4ee92f7c31c8fb5ee8a271\transformed\jetified-play-services-auth-21.4.0\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:21.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ff667efb3b4ee92f7c31c8fb5ee8a271\transformed\jetified-play-services-auth-21.4.0\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:21.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ff667efb3b4ee92f7c31c8fb5ee8a271\transformed\jetified-play-services-auth-21.4.0\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:21.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ff667efb3b4ee92f7c31c8fb5ee8a271\transformed\jetified-play-services-auth-21.4.0\AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:21.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ff667efb3b4ee92f7c31c8fb5ee8a271\transformed\jetified-play-services-auth-21.4.0\AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:21.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ff667efb3b4ee92f7c31c8fb5ee8a271\transformed\jetified-play-services-auth-21.4.0\AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:21.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ff667efb3b4ee92f7c31c8fb5ee8a271\transformed\jetified-play-services-auth-21.4.0\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:21.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ff667efb3b4ee92f7c31c8fb5ee8a271\transformed\jetified-play-services-auth-21.4.0\AndroidManifest.xml:34:13-89
+meta-data#com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar
+ADDED from [com.google.firebase:firebase-database:22.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f7f6e715c067c2e0d2c536dbaed5652c\transformed\jetified-firebase-database-22.0.1\AndroidManifest.xml:29:13-31:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:22.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f7f6e715c067c2e0d2c536dbaed5652c\transformed\jetified-firebase-database-22.0.1\AndroidManifest.xml:31:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:22.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f7f6e715c067c2e0d2c536dbaed5652c\transformed\jetified-firebase-database-22.0.1\AndroidManifest.xml:30:17-120
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:22.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f7f6e715c067c2e0d2c536dbaed5652c\transformed\jetified-firebase-database-22.0.1\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:22.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f7f6e715c067c2e0d2c536dbaed5652c\transformed\jetified-firebase-database-22.0.1\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:22.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f7f6e715c067c2e0d2c536dbaed5652c\transformed\jetified-firebase-database-22.0.1\AndroidManifest.xml:33:17-109
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar
+ADDED from [com.google.firebase:firebase-firestore:26.0.2] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\3f17457a170db5dd3c5a4c8d4d3c7c24\transformed\jetified-firebase-firestore-26.0.2\AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:26.0.2] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\3f17457a170db5dd3c5a4c8d4d3c7c24\transformed\jetified-firebase-firestore-26.0.2\AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:26.0.2] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\3f17457a170db5dd3c5a4c8d4d3c7c24\transformed\jetified-firebase-firestore-26.0.2\AndroidManifest.xml:18:17-122
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:26.0.2] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\3f17457a170db5dd3c5a4c8d4d3c7c24\transformed\jetified-firebase-firestore-26.0.2\AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:26.0.2] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\3f17457a170db5dd3c5a4c8d4d3c7c24\transformed\jetified-firebase-firestore-26.0.2\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:26.0.2] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\3f17457a170db5dd3c5a4c8d4d3c7c24\transformed\jetified-firebase-firestore-26.0.2\AndroidManifest.xml:21:17-111
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\aab1b5bfb7d7c7e7c2b8d5629deb1f28\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\aab1b5bfb7d7c7e7c2b8d5629deb1f28\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\aab1b5bfb7d7c7e7c2b8d5629deb1f28\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\aab1b5bfb7d7c7e7c2b8d5629deb1f28\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\c02fda28af9353995c6fa5c1fb99bd98\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\c02fda28af9353995c6fa5c1fb99bd98\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\c02fda28af9353995c6fa5c1fb99bd98\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:13:17-116
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\d705b4666bd1d302fb150ff02d011d9f\transformed\jetified-firebase-common-22.0.1\AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\d705b4666bd1d302fb150ff02d011d9f\transformed\jetified-firebase-common-22.0.1\AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\d705b4666bd1d302fb150ff02d011d9f\transformed\jetified-firebase-common-22.0.1\AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\d705b4666bd1d302fb150ff02d011d9f\transformed\jetified-firebase-common-22.0.1\AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\d705b4666bd1d302fb150ff02d011d9f\transformed\jetified-firebase-common-22.0.1\AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\d705b4666bd1d302fb150ff02d011d9f\transformed\jetified-firebase-common-22.0.1\AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\d705b4666bd1d302fb150ff02d011d9f\transformed\jetified-firebase-common-22.0.1\AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\d705b4666bd1d302fb150ff02d011d9f\transformed\jetified-firebase-common-22.0.1\AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\d705b4666bd1d302fb150ff02d011d9f\transformed\jetified-firebase-common-22.0.1\AndroidManifest.xml:36:17-109
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\af4ec130a78ac83b18382837196bb146\transformed\jetified-recaptcha-18.6.1\AndroidManifest.xml:9:5-98
+	android:name
+		ADDED from [com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\af4ec130a78ac83b18382837196bb146\transformed\jetified-recaptcha-18.6.1\AndroidManifest.xml:9:22-95
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:23:5-68
+	android:name
+		ADDED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:23:22-65
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:25:5-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:25:22-78
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:26:5-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:26:22-74
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:29:9-37:20
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\5540668fe0fd1dbbda75b245fc4c28df\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\5540668fe0fd1dbbda75b245fc4c28df\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\47f098a3c25eeb19e82c73db75392a92\transformed\jetified-lifecycle-process-2.9.4\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\47f098a3c25eeb19e82c73db75392a92\transformed\jetified-lifecycle-process-2.9.4\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\faa307491040cc56d9d7ade091b5c17c\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\faa307491040cc56d9d7ade091b5c17c\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\de4dc66f24221266fb81f95fa5a43d7a\transformed\jetified-startup-runtime-1.2.0\AndroidManifest.xml:24:9-28:34
+MERGED from [androidx.startup:startup-runtime:1.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\de4dc66f24221266fb81f95fa5a43d7a\transformed\jetified-startup-runtime-1.2.0\AndroidManifest.xml:24:9-28:34
+	tools:node
+		ADDED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:33:13-31
+	android:authorities
+		ADDED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:31:13-68
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:30:13-67
+meta-data#androidx.work.WorkManagerInitializer
+ADDED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:34:13-36:52
+	android:value
+		ADDED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:36:17-49
+	android:name
+		ADDED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:35:17-68
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:39:9-45:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:42:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:43:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:44:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:45:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:41:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:40:13-84
+service#androidx.work.impl.foreground.SystemForegroundService
+ADDED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:46:9-52:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:49:13-77
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:50:13-37
+	tools:ignore
+		ADDED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:51:13-60
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:52:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:48:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:47:13-81
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:54:9-59:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:57:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:58:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:59:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:56:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:55:13-88
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:60:9-69:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:63:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:64:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:65:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:62:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:61:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:66:13-68:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:67:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:67:25-76
+receiver#androidx.work.impl.diagnostics.DiagnosticsReceiver
+ADDED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:70:9-80:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:73:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:74:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:75:13-57
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:76:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:72:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:71:13-78
+intent-filter#action:name:androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:77:13-79:29
+action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:78:17-88
+	android:name
+		ADDED from [androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:78:25-85
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime-android:2.8.3] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\bfe9c83f5b84872f290cdd85e49b8775\transformed\jetified-room-runtime\AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime-android:2.8.3] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\bfe9c83f5b84872f290cdd85e49b8775\transformed\jetified-room-runtime\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime-android:2.8.3] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\bfe9c83f5b84872f290cdd85e49b8775\transformed\jetified-room-runtime\AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime-android:2.8.3] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\bfe9c83f5b84872f290cdd85e49b8775\transformed\jetified-room-runtime\AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime-android:2.8.3] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\bfe9c83f5b84872f290cdd85e49b8775\transformed\jetified-room-runtime\AndroidManifest.xml:25:13-74
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\5540668fe0fd1dbbda75b245fc4c28df\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\5540668fe0fd1dbbda75b245fc4c28df\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\5540668fe0fd1dbbda75b245fc4c28df\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+uses-permission#android.permission.REORDER_TASKS
+ADDED from [androidx.test:core:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f58ed41ee4193a86f87123271e9bc6b\transformed\jetified-core-1.7.0\AndroidManifest.xml:24:5-72
+MERGED from [androidx.fragment:fragment-testing-manifest:1.8.9] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\510a8236ecd53f77694dfc72b744caef\transformed\jetified-fragment-testing-manifest-1.8.9\AndroidManifest.xml:23:5-72
+MERGED from [androidx.fragment:fragment-testing-manifest:1.8.9] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\510a8236ecd53f77694dfc72b744caef\transformed\jetified-fragment-testing-manifest-1.8.9\AndroidManifest.xml:23:5-72
+	android:name
+		ADDED from [androidx.test:core:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f58ed41ee4193a86f87123271e9bc6b\transformed\jetified-core-1.7.0\AndroidManifest.xml:24:22-69
+activity#androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity
+ADDED from [androidx.test:core:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f58ed41ee4193a86f87123271e9bc6b\transformed\jetified-core-1.7.0\AndroidManifest.xml:27:9-34:20
+	android:exported
+		ADDED from [androidx.test:core:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f58ed41ee4193a86f87123271e9bc6b\transformed\jetified-core-1.7.0\AndroidManifest.xml:29:13-36
+	android:theme
+		ADDED from [androidx.test:core:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f58ed41ee4193a86f87123271e9bc6b\transformed\jetified-core-1.7.0\AndroidManifest.xml:30:13-56
+	android:name
+		ADDED from [androidx.test:core:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f58ed41ee4193a86f87123271e9bc6b\transformed\jetified-core-1.7.0\AndroidManifest.xml:28:13-99
+intent-filter#category:name:android.intent.category.LAUNCHER
+ADDED from [androidx.test:core:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f58ed41ee4193a86f87123271e9bc6b\transformed\jetified-core-1.7.0\AndroidManifest.xml:31:13-33:29
+	android:priority
+		ADDED from [androidx.test:core:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f58ed41ee4193a86f87123271e9bc6b\transformed\jetified-core-1.7.0\AndroidManifest.xml:31:28-51
+activity#androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity
+ADDED from [androidx.test:core:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f58ed41ee4193a86f87123271e9bc6b\transformed\jetified-core-1.7.0\AndroidManifest.xml:35:9-42:20
+	android:exported
+		ADDED from [androidx.test:core:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f58ed41ee4193a86f87123271e9bc6b\transformed\jetified-core-1.7.0\AndroidManifest.xml:37:13-36
+	android:theme
+		ADDED from [androidx.test:core:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f58ed41ee4193a86f87123271e9bc6b\transformed\jetified-core-1.7.0\AndroidManifest.xml:38:13-56
+	android:name
+		ADDED from [androidx.test:core:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f58ed41ee4193a86f87123271e9bc6b\transformed\jetified-core-1.7.0\AndroidManifest.xml:36:13-95
+activity#androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity
+ADDED from [androidx.test:core:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f58ed41ee4193a86f87123271e9bc6b\transformed\jetified-core-1.7.0\AndroidManifest.xml:43:9-50:20
+	android:exported
+		ADDED from [androidx.test:core:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f58ed41ee4193a86f87123271e9bc6b\transformed\jetified-core-1.7.0\AndroidManifest.xml:45:13-36
+	android:theme
+		ADDED from [androidx.test:core:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f58ed41ee4193a86f87123271e9bc6b\transformed\jetified-core-1.7.0\AndroidManifest.xml:46:13-62
+	android:name
+		ADDED from [androidx.test:core:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f58ed41ee4193a86f87123271e9bc6b\transformed\jetified-core-1.7.0\AndroidManifest.xml:44:13-103
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f3fee2f6c8d1c1e1ca1373c0917f66f\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f3fee2f6c8d1c1e1ca1373c0917f66f\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f3fee2f6c8d1c1e1ca1373c0917f66f\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f3fee2f6c8d1c1e1ca1373c0917f66f\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f3fee2f6c8d1c1e1ca1373c0917f66f\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f3fee2f6c8d1c1e1ca1373c0917f66f\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.16.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f6075dddbc52ad370fc1938709185987\transformed\core-1.16.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.16.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f6075dddbc52ad370fc1938709185987\transformed\core-1.16.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.16.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f6075dddbc52ad370fc1938709185987\transformed\core-1.16.0\AndroidManifest.xml:23:9-81
+permission#com.batakantonio.bikeandrun.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.16.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f6075dddbc52ad370fc1938709185987\transformed\core-1.16.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.16.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f6075dddbc52ad370fc1938709185987\transformed\core-1.16.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.16.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f6075dddbc52ad370fc1938709185987\transformed\core-1.16.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.16.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f6075dddbc52ad370fc1938709185987\transformed\core-1.16.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.16.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f6075dddbc52ad370fc1938709185987\transformed\core-1.16.0\AndroidManifest.xml:26:22-94
+uses-permission#com.batakantonio.bikeandrun.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.16.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f6075dddbc52ad370fc1938709185987\transformed\core-1.16.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.16.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f6075dddbc52ad370fc1938709185987\transformed\core-1.16.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.9.4] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\47f098a3c25eeb19e82c73db75392a92\transformed\jetified-lifecycle-process-2.9.4\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.9.4] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\47f098a3c25eeb19e82c73db75392a92\transformed\jetified-lifecycle-process-2.9.4\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.9.4] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\47f098a3c25eeb19e82c73db75392a92\transformed\jetified-lifecycle-process-2.9.4\AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\faa307491040cc56d9d7ade091b5c17c\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\faa307491040cc56d9d7ade091b5c17c\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\faa307491040cc56d9d7ade091b5c17c\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\faa307491040cc56d9d7ade091b5c17c\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\faa307491040cc56d9d7ade091b5c17c\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\faa307491040cc56d9d7ade091b5c17c\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\faa307491040cc56d9d7ade091b5c17c\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\faa307491040cc56d9d7ade091b5c17c\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\faa307491040cc56d9d7ade091b5c17c\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\faa307491040cc56d9d7ade091b5c17c\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\faa307491040cc56d9d7ade091b5c17c\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\faa307491040cc56d9d7ade091b5c17c\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\faa307491040cc56d9d7ade091b5c17c\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\faa307491040cc56d9d7ade091b5c17c\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\faa307491040cc56d9d7ade091b5c17c\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\faa307491040cc56d9d7ade091b5c17c\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\faa307491040cc56d9d7ade091b5c17c\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\faa307491040cc56d9d7ade091b5c17c\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\faa307491040cc56d9d7ade091b5c17c\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\faa307491040cc56d9d7ade091b5c17c\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\faa307491040cc56d9d7ade091b5c17c\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+activity#androidx.fragment.app.testing.EmptyFragmentActivity
+ADDED from [androidx.fragment:fragment-testing-manifest:1.8.9] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\510a8236ecd53f77694dfc72b744caef\transformed\jetified-fragment-testing-manifest-1.8.9\AndroidManifest.xml:26:9-35:20
+	android:multiprocess
+		ADDED from [androidx.fragment:fragment-testing-manifest:1.8.9] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\510a8236ecd53f77694dfc72b744caef\transformed\jetified-fragment-testing-manifest-1.8.9\AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.fragment:fragment-testing-manifest:1.8.9] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\510a8236ecd53f77694dfc72b744caef\transformed\jetified-fragment-testing-manifest-1.8.9\AndroidManifest.xml:28:13-36
+	android:theme
+		ADDED from [androidx.fragment:fragment-testing-manifest:1.8.9] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\510a8236ecd53f77694dfc72b744caef\transformed\jetified-fragment-testing-manifest-1.8.9\AndroidManifest.xml:31:13-78
+	android:taskAffinity
+		ADDED from [androidx.fragment:fragment-testing-manifest:1.8.9] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\510a8236ecd53f77694dfc72b744caef\transformed\jetified-fragment-testing-manifest-1.8.9\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [androidx.fragment:fragment-testing-manifest:1.8.9] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\510a8236ecd53f77694dfc72b744caef\transformed\jetified-fragment-testing-manifest-1.8.9\AndroidManifest.xml:27:13-79
+intent-filter#action:name:android.intent.action.MAIN
+ADDED from [androidx.fragment:fragment-testing-manifest:1.8.9] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\510a8236ecd53f77694dfc72b744caef\transformed\jetified-fragment-testing-manifest-1.8.9\AndroidManifest.xml:32:13-34:29
+package#androidx.test.orchestrator
+ADDED from [androidx.test:runner:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\5b721fa156d110cf3141d534629d31f0\transformed\runner-1.7.0\AndroidManifest.xml:25:9-62
+	android:name
+		ADDED from [androidx.test:runner:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\5b721fa156d110cf3141d534629d31f0\transformed\runner-1.7.0\AndroidManifest.xml:25:18-59
+package#androidx.test.services
+ADDED from [androidx.test:runner:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\5b721fa156d110cf3141d534629d31f0\transformed\runner-1.7.0\AndroidManifest.xml:26:9-58
+	android:name
+		ADDED from [androidx.test:runner:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\5b721fa156d110cf3141d534629d31f0\transformed\runner-1.7.0\AndroidManifest.xml:26:18-55
+package#com.google.android.apps.common.testing.services
+ADDED from [androidx.test:runner:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\5b721fa156d110cf3141d534629d31f0\transformed\runner-1.7.0\AndroidManifest.xml:27:9-83
+	android:name
+		ADDED from [androidx.test:runner:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\5b721fa156d110cf3141d534629d31f0\transformed\runner-1.7.0\AndroidManifest.xml:27:18-80
+activity#com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+ADDED from [com.google.android.play:core-common:2.0.3] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\641b20e719ff9d4b28fc2a1921b9452d\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:14:9-18:65
+	android:stateNotNeeded
+		ADDED from [com.google.android.play:core-common:2.0.3] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\641b20e719ff9d4b28fc2a1921b9452d\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:17:13-42
+	android:exported
+		ADDED from [com.google.android.play:core-common:2.0.3] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\641b20e719ff9d4b28fc2a1921b9452d\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:16:13-37
+	android:theme
+		ADDED from [com.google.android.play:core-common:2.0.3] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\641b20e719ff9d4b28fc2a1921b9452d\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:18:13-62
+	android:name
+		ADDED from [com.google.android.play:core-common:2.0.3] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\641b20e719ff9d4b28fc2a1921b9452d\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:15:13-93

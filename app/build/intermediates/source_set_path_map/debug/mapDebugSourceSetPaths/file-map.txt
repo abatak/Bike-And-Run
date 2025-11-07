@@ -1,0 +1,78 @@
+com.batakantonio.bikeandrun.app-drawerlayout-1.1.1-0 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\05fc313f9cdfadf3f5e7d457adfff2ea\transformed\drawerlayout-1.1.1\res
+com.batakantonio.bikeandrun.app-jetified-lifecycle-viewmodel-ktx-2.9.4-1 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\08653d2653a698e64d657946a26d2a45\transformed\jetified-lifecycle-viewmodel-ktx-2.9.4\res
+com.batakantonio.bikeandrun.app-jetified-customview-poolingcontainer-1.0.0-2 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\08b38da6881338a1bc8e0b940f0618eb\transformed\jetified-customview-poolingcontainer-1.0.0\res
+com.batakantonio.bikeandrun.app-jetified-lifecycle-viewmodel-savedstate-release-3 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\0ba8a701cfcc2c11ec39766fb57665ee\transformed\jetified-lifecycle-viewmodel-savedstate-release\res
+com.batakantonio.bikeandrun.app-jetified-credentials-1.5.0-4 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\1320edc134eea3a95369b9b3e0625ad9\transformed\jetified-credentials-1.5.0\res
+com.batakantonio.bikeandrun.app-navigation-ui-ktx-2.9.5-5 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\13555c754fa6ab838cc58a3090ad4704\transformed\navigation-ui-ktx-2.9.5\res
+com.batakantonio.bikeandrun.app-jetified-datastore-core-release-6 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\17839df17cd8a74819dccdc82b47dc7f\transformed\jetified-datastore-core-release\res
+com.batakantonio.bikeandrun.app-jetified-play-services-maps-19.2.0-7 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\17d8e83724fc675f49b995efaea7e0da\transformed\jetified-play-services-maps-19.2.0\res
+com.batakantonio.bikeandrun.app-navigation-fragment-ktx-2.9.5-8 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\17e715c344b50ed252e658b4935bebfc\transformed\navigation-fragment-ktx-2.9.5\res
+com.batakantonio.bikeandrun.app-work-runtime-ktx-2.11.0-9 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\185a20f3734c1883ee8cc7b8682b22e5\transformed\work-runtime-ktx-2.11.0\res
+com.batakantonio.bikeandrun.app-core-runtime-2.2.0-10 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\1982411480694fe3a4e2b390fb7bd666\transformed\core-runtime-2.2.0\res
+com.batakantonio.bikeandrun.app-jetified-credentials-play-services-auth-1.5.0-11 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\28a1eb1bc94777a12893fd4b07f541db\transformed\jetified-credentials-play-services-auth-1.5.0\res
+com.batakantonio.bikeandrun.app-jetified-datastore-preferences-release-12 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\2b243c872561e99085ddc30cf2cddb49\transformed\jetified-datastore-preferences-release\res
+com.batakantonio.bikeandrun.app-jetified-fragment-testing-1.8.9-13 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\34adf76af0f3761e6273aa4c1686f53e\transformed\jetified-fragment-testing-1.8.9\res
+com.batakantonio.bikeandrun.app-media-1.0.0-14 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\355abf597b23561e57267bc34c125cd4\transformed\media-1.0.0\res
+com.batakantonio.bikeandrun.app-jetified-navigation-common-release-15 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\35f32e296604f7739fb419d23ed282df\transformed\jetified-navigation-common-release\res
+com.batakantonio.bikeandrun.app-jetified-activity-ktx-1.10.1-16 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\38a236c21f37e8188702b3d1f47da7b4\transformed\jetified-activity-ktx-1.10.1\res
+com.batakantonio.bikeandrun.app-jetified-tracing-1.2.0-17 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\3ce8007fad40af4cc7493923da8b47ec\transformed\jetified-tracing-1.2.0\res
+com.batakantonio.bikeandrun.app-jetified-core-ktx-1.16.0-18 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4066878df5c342f5f6e8964c5a3db746\transformed\jetified-core-ktx-1.16.0\res
+com.batakantonio.bikeandrun.app-biometric-1.1.0-19 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\40dd15e54890a45733c5e5a638c5f753\transformed\biometric-1.1.0\res
+com.batakantonio.bikeandrun.app-jetified-fragment-ktx-1.8.9-20 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\426c51be924932d6e5b452f995066277\transformed\jetified-fragment-ktx-1.8.9\res
+com.batakantonio.bikeandrun.app-jetified-savedstate-ktx-1.3.1-21 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\426f7c062463dba10f6d2d7d1f57af19\transformed\jetified-savedstate-ktx-1.3.1\res
+com.batakantonio.bikeandrun.app-jetified-lifecycle-process-2.9.4-22 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\47f098a3c25eeb19e82c73db75392a92\transformed\jetified-lifecycle-process-2.9.4\res
+com.batakantonio.bikeandrun.app-jetified-room-ktx-2.8.3-23 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4857b6ba55ebcc1f71c8f0a5ee7453e5\transformed\jetified-room-ktx-2.8.3\res
+com.batakantonio.bikeandrun.app-jetified-window-1.0.0-24 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f3fee2f6c8d1c1e1ca1373c0917f66f\transformed\jetified-window-1.0.0\res
+com.batakantonio.bikeandrun.app-jetified-core-1.7.0-25 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f58ed41ee4193a86f87123271e9bc6b\transformed\jetified-core-1.7.0\res
+com.batakantonio.bikeandrun.app-jetified-fragment-testing-manifest-1.8.9-26 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\510a8236ecd53f77694dfc72b744caef\transformed\jetified-fragment-testing-manifest-1.8.9\res
+com.batakantonio.bikeandrun.app-jetified-emoji2-1.3.0-27 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\5540668fe0fd1dbbda75b245fc4c28df\transformed\jetified-emoji2-1.3.0\res
+com.batakantonio.bikeandrun.app-jetified-lifecycle-service-2.9.4-28 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\57604ccc8df192505dadb0539d32072f\transformed\jetified-lifecycle-service-2.9.4\res
+com.batakantonio.bikeandrun.app-jetified-play-services-basement-18.8.0-29 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\5777b7e172b7f896cbe191ccee9beefe\transformed\jetified-play-services-basement-18.8.0\res
+com.batakantonio.bikeandrun.app-jetified-core-common-2.0.3-30 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\641b20e719ff9d4b28fc2a1921b9452d\transformed\jetified-core-common-2.0.3\res
+com.batakantonio.bikeandrun.app-material-1.13.0-31 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\651c146452551155d0dd6de5a4027066\transformed\material-1.13.0\res
+com.batakantonio.bikeandrun.app-jetified-emoji2-views-helper-1.3.0-32 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\6e57c54b54a4b1e67df105c2c222a6bb\transformed\jetified-emoji2-views-helper-1.3.0\res
+com.batakantonio.bikeandrun.app-jetified-annotation-experimental-1.5.0-33 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\72b8558c76699cc3335d1432f992b2e3\transformed\jetified-annotation-experimental-1.5.0\res
+com.batakantonio.bikeandrun.app-jetified-datastore-preferences-core-release-34 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\7a07f4bae4010dfdd091caba77be3403\transformed\jetified-datastore-preferences-core-release\res
+com.batakantonio.bikeandrun.app-navigation-ui-2.9.5-35 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\833c2b68f479fc3a659ff4b413ad4dc6\transformed\navigation-ui-2.9.5\res
+com.batakantonio.bikeandrun.app-appcompat-1.7.1-36 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\834c692ca19a03c2547b64023b3fc1dc\transformed\appcompat-1.7.1\res
+com.batakantonio.bikeandrun.app-recyclerview-1.4.0-37 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\8bc0cd2b460e7aa84cdfdd0cde24fe49\transformed\recyclerview-1.4.0\res
+com.batakantonio.bikeandrun.app-jetified-core-viewtree-1.0.0-38 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\8f1cac35dc7fe9b74adb432aec46ca6e\transformed\jetified-core-viewtree-1.0.0\res
+com.batakantonio.bikeandrun.app-jetified-viewpager2-1.1.0-beta02-39 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\90f4bfbfc9d05599fdc9f40fb315749d\transformed\jetified-viewpager2-1.1.0-beta02\res
+com.batakantonio.bikeandrun.app-jetified-datastore-release-40 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\930a350330a924e84c64db8888c33eea\transformed\jetified-datastore-release\res
+com.batakantonio.bikeandrun.app-jetified-easypermissions-ktx-1.0.0-41 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\941e336170986db3c1a02b7e4b5bc07c\transformed\jetified-easypermissions-ktx-1.0.0\res
+com.batakantonio.bikeandrun.app-jetified-savedstate-release-42 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\9959e2f916adc424f78d83a6bcf96c39\transformed\jetified-savedstate-release\res
+com.batakantonio.bikeandrun.app-jetified-tracing-ktx-1.2.0-43 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\a9ea5472a310462dd65589bc946de8b6\transformed\jetified-tracing-ktx-1.2.0\res
+com.batakantonio.bikeandrun.app-jetified-play-services-base-18.5.0-44 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\aab1b5bfb7d7c7e7c2b8d5629deb1f28\transformed\jetified-play-services-base-18.5.0\res
+com.batakantonio.bikeandrun.app-jetified-firebase-ui-auth-9.0.0-45 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\res
+com.batakantonio.bikeandrun.app-jetified-appcompat-resources-1.7.1-46 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\adab4ab156efbb14e9edf1f9979a1eda\transformed\jetified-appcompat-resources-1.7.1\res
+com.batakantonio.bikeandrun.app-slidingpanelayout-1.2.0-47 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\b68191ffe8398adef7eb4d7c6d655dc6\transformed\slidingpanelayout-1.2.0\res
+com.batakantonio.bikeandrun.app-cardview-1.0.0-48 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\b6cc847cddec1d89863b70ef34f01927\transformed\cardview-1.0.0\res
+com.batakantonio.bikeandrun.app-dynamicanimation-1.1.0-49 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\b705b7c646351dccdf69f8b62ac5a4bc\transformed\dynamicanimation-1.1.0\res
+com.batakantonio.bikeandrun.app-browser-1.4.0-50 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\b782086382a6496a399f70f4c19779cb\transformed\browser-1.4.0\res
+com.batakantonio.bikeandrun.app-jetified-lifecycle-livedata-core-ktx-2.9.4-51 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\b83a661b9607ec43efbafd81d5bc0139\transformed\jetified-lifecycle-livedata-core-ktx-2.9.4\res
+com.batakantonio.bikeandrun.app-jetified-activity-1.10.1-52 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\bae8783e1409fd7de9e409c1b15c15ce\transformed\jetified-activity-1.10.1\res
+com.batakantonio.bikeandrun.app-lifecycle-livedata-core-2.9.4-53 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\bcf1ea80a0acf9ba8179f8ea14971323\transformed\lifecycle-livedata-core-2.9.4\res
+com.batakantonio.bikeandrun.app-jetified-lifecycle-runtime-release-54 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\c1fe607500d29e3c43ac80fdac528ef8\transformed\jetified-lifecycle-runtime-release\res
+com.batakantonio.bikeandrun.app-lifecycle-livedata-2.9.4-55 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\c3596a5274ba554fb0521ac5fba040f0\transformed\lifecycle-livedata-2.9.4\res
+com.batakantonio.bikeandrun.app-jetified-navigation-runtime-release-56 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\c90717f5406cad165b9040e4ffc1b2e8\transformed\jetified-navigation-runtime-release\res
+com.batakantonio.bikeandrun.app-jetified-firebase-common-22.0.1-57 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\d705b4666bd1d302fb150ff02d011d9f\transformed\jetified-firebase-common-22.0.1\res
+com.batakantonio.bikeandrun.app-coordinatorlayout-1.1.0-58 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\d9c6ccbbf10fa409f24ab0bbe7518e30\transformed\coordinatorlayout-1.1.0\res
+com.batakantonio.bikeandrun.app-work-runtime-2.11.0-59 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\res
+com.batakantonio.bikeandrun.app-jetified-startup-runtime-1.2.0-60 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\de4dc66f24221266fb81f95fa5a43d7a\transformed\jetified-startup-runtime-1.2.0\res
+com.batakantonio.bikeandrun.app-navigation-fragment-2.9.5-61 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\dfe961dfd2e8e1470ebb7647ddbafc1e\transformed\navigation-fragment-2.9.5\res
+com.batakantonio.bikeandrun.app-jetified-lifecycle-viewmodel-release-62 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\e2eadfee117ca09453c2c1a97f892c61\transformed\jetified-lifecycle-viewmodel-release\res
+com.batakantonio.bikeandrun.app-fragment-1.8.9-63 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\e6f914fc1340d2697a58221c2c5b267f\transformed\fragment-1.8.9\res
+com.batakantonio.bikeandrun.app-constraintlayout-2.2.1-64 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\e8952e8aa112adc2a5f319c694c252c8\transformed\constraintlayout-2.2.1\res
+com.batakantonio.bikeandrun.app-transition-1.5.0-65 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f5d1af9d2f7a9cbcf7d7cc094b2f82b3\transformed\transition-1.5.0\res
+com.batakantonio.bikeandrun.app-core-1.16.0-66 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f6075dddbc52ad370fc1938709185987\transformed\core-1.16.0\res
+com.batakantonio.bikeandrun.app-jetified-profileinstaller-1.4.0-67 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\faa307491040cc56d9d7ade091b5c17c\transformed\jetified-profileinstaller-1.4.0\res
+com.batakantonio.bikeandrun.app-jetified-play-services-auth-21.4.0-68 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ff667efb3b4ee92f7c31c8fb5ee8a271\transformed\jetified-play-services-auth-21.4.0\res
+com.batakantonio.bikeandrun.app-jetified-graphics-shapes-release-69 C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ffeed86e0297904b2c4acf7e84b20730\transformed\jetified-graphics-shapes-release\res
+com.batakantonio.bikeandrun.app-pngs-70 C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\build\generated\res\pngs\debug
+com.batakantonio.bikeandrun.app-res-71 C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\build\generated\res\processDebugGoogleServices
+com.batakantonio.bikeandrun.app-resValues-72 C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\build\generated\res\resValues\debug
+com.batakantonio.bikeandrun.app-packageDebugResources-73 C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.batakantonio.bikeandrun.app-packageDebugResources-74 C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.batakantonio.bikeandrun.app-debug-75 C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.batakantonio.bikeandrun.app-debug-76 C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\debug\res
+com.batakantonio.bikeandrun.app-main-77 C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\res

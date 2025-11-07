@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/linearLayout"
+    android:layout_margin="3dp"
+    android:background="@color/teal_700"
+    android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_name"
+            style="@style/FirebaseUsersItemTextAppearance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="TextView" />
+
+        <TextView
+            android:id="@+id/tv_age"
+            style="@style/FirebaseUsersItemTextAppearance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="TextView" />
+
+        <TextView
+            android:id="@+id/tv_email"
+            style="@style/FirebaseUsersItemTextAppearance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="TextView" />
+
+
+</LinearLayout>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_blue_100"
+    tools:context=".ui.bicycle.BikeCaloriesFragment">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/calories_running_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="@drawable/ic_back_arrow"
+        app:navigationIconTint="@color/teal_700"
+        app:title="Running Calorie Calculator"
+        app:titleCentered="true"
+        app:titleTextAppearance="@style/CaloriesToolbarTextAppearance"
+        app:titleTextColor="@color/teal_700" />
+
+    <TextView
+        android:id="@+id/tv_description"
+        style="@style/CaloriesDescriptionTextAppearance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_a_few_details_to_quickly_calculate_calories_burned_and_fat_loss_for_runs_text"
+        app:layout_constraintTop_toBottomOf="@id/calories_running_toolbar" />
+
+    <TextView
+        android:id="@+id/tv_weight_description"
+        style="@style/CaloriesDescriptionWeightTextAppearance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_your_weight_text"
+        app:layout_constraintStart_toStartOf="@id/btn_weight"
+        app:layout_constraintTop_toBottomOf="@id/tv_description" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_weight"
+        style="@style/CaloriesWeightAndHillMaterialButtonsAppearance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/weight_btn_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_description" />
+
+    <RadioGroup
+        android:id="@+id/rb_group_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toEndOf="@id/btn_weight"
+        app:layout_constraintTop_toBottomOf="@id/tv_weight_description">
+
+        <RadioButton
+            android:id="@+id/rb_lb"
+            style="@style/CaloriesRadioButtonsAppearance1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lb_text" />
+
+        <RadioButton
+            android:id="@+id/rb_kg"
+            style="@style/CaloriesRadioButtonsAppearance1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kg_text" />
+
+    </RadioGroup>
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cv_weight"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        app:cardBackgroundColor="@color/white"
+        app:layout_constraintStart_toEndOf="@id/rb_group_weight"
+        app:layout_constraintTop_toBottomOf="@id/tv_weight_description">
+
+        <EditText
+            android:id="@+id/et_input_lb_or_kg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:importantForAutofill="no"
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            tools:ignore="LabelFor" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <TextView
+        android:id="@+id/tv_distance_description"
+        style="@style/CaloriesDescriptionWeightTextAppearance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_your_weight_text"
+        app:layout_constraintBottom_toTopOf="@id/btn_distance"
+        app:layout_constraintStart_toStartOf="@id/btn_distance" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_distance"
+        style="@style/CaloriesDistanceAndDurationMaterialButtonsAppearance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="@string/distance_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_weight" />
+
+    <RadioGroup
+        android:id="@+id/rb_group_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toEndOf="@id/btn_distance"
+        app:layout_constraintTop_toBottomOf="@id/rb_group_weight">
+
+        <RadioButton
+            android:id="@+id/rb_miles"
+            style="@style/CaloriesRadioButtonsAppearance2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/miles_text" />
+
+        <RadioButton
+            android:id="@+id/rb_kilometers"
+            style="@style/CaloriesRadioButtonsAppearance2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kilometers_text" />
+
+    </RadioGroup>
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cv_distance"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        app:cardBackgroundColor="@color/white"
+        app:layout_constraintStart_toEndOf="@id/rb_group_distance"
+        app:layout_constraintTop_toBottomOf="@id/tv_distance_description">
+
+        <EditText
+            android:id="@+id/et_input_mi_or_km"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:importantForAutofill="no"
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            tools:ignore="LabelFor" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:id="@+id/tv_duration_description"
+        style="@style/CaloriesDescriptionDistanceAndDurationTextAppearance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_the_running_duration_text"
+        app:layout_constraintStart_toStartOf="@id/btn_distance"
+        app:layout_constraintTop_toBottomOf="@id/btn_distance" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_duration"
+        style="@style/CaloriesDistanceAndDurationMaterialButtonsAppearance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/duration_speed_text_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_duration_description" />
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cv_duration"
+        style="@style/CaloriesCardViewDurationAppearance"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        app:cardBackgroundColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@id/btn_duration"
+        app:layout_constraintStart_toEndOf="@id/tv_duration_description"
+        app:layout_constraintTop_toBottomOf="@id/tv_duration_description">
+
+        <EditText
+            android:id="@+id/et_input_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hh_mm_ss_input_text"
+            android:importantForAutofill="no"
+            android:inputType="time"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            tools:ignore="LabelFor" />
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_calculate_running"
+        style="@style/CaloriesCalculateMaterialButtonAppearance"
+        android:text="@string/calculate_btn_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cv_duration" />
+
+    <TextView
+        android:id="@+id/tv_calorie_result_running"
+        style="@style/CaloriesResultTextViewAppearance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/btn_calculate_running"
+        tools:text="Cycling 5 miles at mph at a weight of 165.3 lb requires approximately 238 Calories (kcal) / 996 kilojoules of energy." />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

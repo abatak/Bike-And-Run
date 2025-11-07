@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph_running"
+    app:startDestination="@id/runningFragment">
+
+
+    <!-- First fragment -->
+    <fragment
+        android:id="@+id/runningFragment"
+        android:name="com.batakantonio.bikeandrun.ui.running.RunningFragment"
+        android:label="runningFragment" />
+
+    <!-- Action: navigate from RunningFragment to ChallengeRunningFragment-->
+    <action
+        android:id="@+id/action_runningFragment_to_challengeRunningFragment"
+        app:destination="@+id/challengeRunningFragment" />
+
+    <!-- Action: navigate from RunningFragment to RunningCaloriesFragment-->
+    <action
+        android:id="@+id/action_runningFragment_to_caloriesRunningFragment"
+        app:destination="@+id/caloriesRunningFragment" />
+
+
+    <!-- Second fragment -->
+    <fragment
+        android:id="@+id/challengeRunningFragment"
+        android:name="com.batakantonio.bikeandrun.ui.running.ChallengeRunningFragment"
+        android:label="challengeRunningFragment" />
+
+    <!-- Third fragment -->
+    <fragment
+        android:id="@+id/caloriesRunningFragment"
+        android:name="com.batakantonio.bikeandrun.ui.running.RunningCaloriesFragment"
+        android:label="caloriesRunningFragment" />
+
+</navigation>

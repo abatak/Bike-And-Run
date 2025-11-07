@@ -1,0 +1,859 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.batakantonio.bikeandrun"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:5:5-79
+11-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:6:5-81
+12-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:8:5-79
+13-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:8:22-76
+14    <uses-permission android:name="android.permission.INTERNET" /> <!-- Used to check if a browser is available before launching phone auth -->
+14-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:9:5-67
+14-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:9:22-64
+15    <!-- See ui/phone/PhoneNumberVerificationHandler.isBrowserAvailable() -->
+16    <queries>
+16-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:13:5-21:15
+17        <intent>
+17-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:14:9-20:18
+18            <action android:name="android.intent.action.VIEW" />
+18-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:15:13-65
+18-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:15:21-62
+19
+20            <category android:name="android.intent.category.BROWSABLE" />
+20-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:17:13-74
+20-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:17:23-71
+21
+22            <data android:scheme="http" />
+22-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:19:13-43
+22-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:19:19-40
+23        </intent>
+24        <!-- Needs to be explicitly declared on Android R+ -->
+25        <package android:name="com.google.android.apps.maps" />
+25-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\17d8e83724fc675f49b995efaea7e0da\transformed\jetified-play-services-maps-19.2.0\AndroidManifest.xml:29:7-61
+25-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\17d8e83724fc675f49b995efaea7e0da\transformed\jetified-play-services-maps-19.2.0\AndroidManifest.xml:29:16-59
+26        <package android:name="androidx.test.orchestrator" />
+26-->[androidx.test:runner:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\5b721fa156d110cf3141d534629d31f0\transformed\runner-1.7.0\AndroidManifest.xml:25:9-62
+26-->[androidx.test:runner:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\5b721fa156d110cf3141d534629d31f0\transformed\runner-1.7.0\AndroidManifest.xml:25:18-59
+27        <package android:name="androidx.test.services" />
+27-->[androidx.test:runner:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\5b721fa156d110cf3141d534629d31f0\transformed\runner-1.7.0\AndroidManifest.xml:26:9-58
+27-->[androidx.test:runner:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\5b721fa156d110cf3141d534629d31f0\transformed\runner-1.7.0\AndroidManifest.xml:26:18-55
+28        <package android:name="com.google.android.apps.common.testing.services" />
+28-->[androidx.test:runner:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\5b721fa156d110cf3141d534629d31f0\transformed\runner-1.7.0\AndroidManifest.xml:27:9-83
+28-->[androidx.test:runner:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\5b721fa156d110cf3141d534629d31f0\transformed\runner-1.7.0\AndroidManifest.xml:27:18-80
+29    </queries>
+30
+31    <uses-permission android:name="android.permission.USE_BIOMETRIC" /> <!-- suppress DeprecatedClassUsageInspection -->
+31-->[androidx.biometric:biometric:1.1.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\40dd15e54890a45733c5e5a638c5f753\transformed\biometric-1.1.0\AndroidManifest.xml:24:5-72
+31-->[androidx.biometric:biometric:1.1.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\40dd15e54890a45733c5e5a638c5f753\transformed\biometric-1.1.0\AndroidManifest.xml:24:22-69
+32    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+32-->[androidx.biometric:biometric:1.1.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\40dd15e54890a45733c5e5a638c5f753\transformed\biometric-1.1.0\AndroidManifest.xml:27:5-74
+32-->[androidx.biometric:biometric:1.1.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\40dd15e54890a45733c5e5a638c5f753\transformed\biometric-1.1.0\AndroidManifest.xml:27:22-71
+33
+34    <uses-feature
+34-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\17d8e83724fc675f49b995efaea7e0da\transformed\jetified-play-services-maps-19.2.0\AndroidManifest.xml:22:5-24:33
+35        android:glEsVersion="0x00020000"
+35-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\17d8e83724fc675f49b995efaea7e0da\transformed\jetified-play-services-maps-19.2.0\AndroidManifest.xml:23:8-40
+36        android:required="true" />
+36-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\17d8e83724fc675f49b995efaea7e0da\transformed\jetified-play-services-maps-19.2.0\AndroidManifest.xml:24:8-31
+37
+38    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+38-->[com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\af4ec130a78ac83b18382837196bb146\transformed\jetified-recaptcha-18.6.1\AndroidManifest.xml:9:5-98
+38-->[com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\af4ec130a78ac83b18382837196bb146\transformed\jetified-recaptcha-18.6.1\AndroidManifest.xml:9:22-95
+39    <uses-permission android:name="android.permission.WAKE_LOCK" />
+39-->[androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:23:5-68
+39-->[androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:23:22-65
+40    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+40-->[androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:25:5-81
+40-->[androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:25:22-78
+41    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+41-->[androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:26:5-77
+41-->[androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:26:22-74
+42    <uses-permission android:name="android.permission.REORDER_TASKS" />
+42-->[androidx.test:core:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f58ed41ee4193a86f87123271e9bc6b\transformed\jetified-core-1.7.0\AndroidManifest.xml:24:5-72
+42-->[androidx.test:core:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f58ed41ee4193a86f87123271e9bc6b\transformed\jetified-core-1.7.0\AndroidManifest.xml:24:22-69
+43
+44    <permission
+44-->[androidx.core:core:1.16.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f6075dddbc52ad370fc1938709185987\transformed\core-1.16.0\AndroidManifest.xml:22:5-24:47
+45        android:name="com.batakantonio.bikeandrun.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+45-->[androidx.core:core:1.16.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f6075dddbc52ad370fc1938709185987\transformed\core-1.16.0\AndroidManifest.xml:23:9-81
+46        android:protectionLevel="signature" />
+46-->[androidx.core:core:1.16.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f6075dddbc52ad370fc1938709185987\transformed\core-1.16.0\AndroidManifest.xml:24:9-44
+47
+48    <uses-permission android:name="com.batakantonio.bikeandrun.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+48-->[androidx.core:core:1.16.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f6075dddbc52ad370fc1938709185987\transformed\core-1.16.0\AndroidManifest.xml:26:5-97
+48-->[androidx.core:core:1.16.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f6075dddbc52ad370fc1938709185987\transformed\core-1.16.0\AndroidManifest.xml:26:22-94
+49
+50    <application
+50-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:9:5-65:19
+51        android:name="com.batakantonio.bikeandrun.data.util.BikeAndRunApplication"
+51-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:10:9-56
+52        android:allowBackup="true"
+52-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:11:9-35
+53        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+53-->[androidx.core:core:1.16.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f6075dddbc52ad370fc1938709185987\transformed\core-1.16.0\AndroidManifest.xml:28:18-86
+54        android:dataExtractionRules="@xml/data_extraction_rules"
+54-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:12:9-65
+55        android:debuggable="true"
+56        android:extractNativeLibs="false"
+57        android:fullBackupContent="@xml/backup_rules"
+57-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:13:9-54
+58        android:icon="@mipmap/bike_and_run"
+58-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:14:9-44
+59        android:label="@string/app_name"
+59-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:15:9-41
+60        android:roundIcon="@mipmap/bike_and_run_round"
+60-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:16:9-55
+61        android:supportsRtl="true"
+61-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:17:9-35
+62        android:theme="@style/Theme.BikeAndRun" >
+62-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:18:9-48
+63        <activity
+63-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:21:9-24:57
+64            android:name="com.batakantonio.bikeandrun.ui.maps.MapsActivity"
+64-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:22:13-49
+65            android:exported="true"
+65-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:23:13-36
+66            android:parentActivityName="com.batakantonio.bikeandrun.MainActivity" />
+66-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:24:13-55
+67        <activity
+67-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:25:9-27:39
+68            android:name="com.batakantonio.bikeandrun.ui.EditRecordsActivity"
+68-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:26:13-51
+69            android:exported="true" />
+69-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:27:13-36
+70        <activity
+70-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:28:9-30:40
+71            android:name="com.batakantonio.bikeandrun.data.firebase.auth.ForgotPasswordActivity"
+71-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:29:13-70
+72            android:exported="false" />
+72-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:30:13-37
+73        <activity
+73-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:31:9-34:80
+74            android:name="com.batakantonio.bikeandrun.data.firebase.users.UpdateUserActivity"
+74-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:32:13-67
+75            android:exported="true"
+75-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:33:13-36
+76            android:parentActivityName="com.batakantonio.bikeandrun.data.firebase.FirebaseMainActivity" />
+76-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:34:13-77
+77        <activity
+77-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:35:9-38:58
+78            android:name="com.batakantonio.bikeandrun.data.firebase.users.AddUsersActivity"
+78-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:36:13-65
+79            android:exported="true"
+79-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:37:13-36
+80            android:parentActivityName="com.batakantonio.bikeandrun.MainActivity" />
+80-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:38:13-55
+81        <activity
+81-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:39:9-42:58
+82            android:name="com.batakantonio.bikeandrun.data.firebase.FirebaseMainActivity"
+82-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:40:13-63
+83            android:exported="true"
+83-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:41:13-36
+84            android:parentActivityName="com.batakantonio.bikeandrun.MainActivity" />
+84-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:42:13-55
+85        <activity
+85-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:43:9-46:58
+86            android:name="com.batakantonio.bikeandrun.data.firebase.auth.SignInActivity"
+86-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:44:13-62
+87            android:exported="true"
+87-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:45:13-36
+88            android:parentActivityName="com.batakantonio.bikeandrun.MainActivity" />
+88-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:46:13-55
+89        <activity
+89-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:47:9-50:58
+90            android:name="com.batakantonio.bikeandrun.data.firebase.auth.SingUpActivity"
+90-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:48:13-62
+91            android:exported="true"
+91-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:49:13-36
+92            android:parentActivityName="com.batakantonio.bikeandrun.MainActivity" />
+92-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:50:13-55
+93        <activity
+93-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:51:9-59:20
+94            android:name="com.batakantonio.bikeandrun.MainActivity"
+94-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:52:13-41
+95            android:exported="true" >
+95-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:53:13-36
+96            <intent-filter>
+96-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:54:13-58:29
+97                <action android:name="android.intent.action.MAIN" />
+97-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:55:17-69
+97-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:55:25-66
+98
+99                <category android:name="android.intent.category.LAUNCHER" />
+99-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:57:17-77
+99-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:57:27-74
+100            </intent-filter>
+101        </activity>
+102
+103        <meta-data
+104            android:name="com.google.android.geo.API_KEY"
+104-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:62:13-58
+105            android:value="AIzaSyDDy85V-bv6cYmzKcTV12m8bQ8aFbwb1qs" />
+105-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:63:13-45
+106
+107        <activity android:name="com.vmadalin.easypermissions.components.TestActivity" />
+107-->[com.vmadalin:easypermissions-ktx:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\941e336170986db3c1a02b7e4b5bc07c\transformed\jetified-easypermissions-ktx-1.0.0\AndroidManifest.xml:13:9-89
+107-->[com.vmadalin:easypermissions-ktx:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\941e336170986db3c1a02b7e4b5bc07c\transformed\jetified-easypermissions-ktx-1.0.0\AndroidManifest.xml:13:19-86
+108        <activity android:name="com.vmadalin.easypermissions.components.TestAppCompatActivity" />
+108-->[com.vmadalin:easypermissions-ktx:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\941e336170986db3c1a02b7e4b5bc07c\transformed\jetified-easypermissions-ktx-1.0.0\AndroidManifest.xml:14:9-98
+108-->[com.vmadalin:easypermissions-ktx:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\941e336170986db3c1a02b7e4b5bc07c\transformed\jetified-easypermissions-ktx-1.0.0\AndroidManifest.xml:14:19-95
+109        <activity android:name="com.vmadalin.easypermissions.components.TestSupportFragmentActivity" />
+109-->[com.vmadalin:easypermissions-ktx:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\941e336170986db3c1a02b7e4b5bc07c\transformed\jetified-easypermissions-ktx-1.0.0\AndroidManifest.xml:15:9-104
+109-->[com.vmadalin:easypermissions-ktx:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\941e336170986db3c1a02b7e4b5bc07c\transformed\jetified-easypermissions-ktx-1.0.0\AndroidManifest.xml:15:19-101
+110
+111        <meta-data
+111-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:24:9-26:69
+112            android:name="com.google.android.gms.version"
+112-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:25:13-58
+113            android:value="@integer/google_play_services_version" />
+113-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:26:13-66
+114        <meta-data
+114-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:27:9-29:63
+115            android:name="com.facebook.sdk.ApplicationId"
+115-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:28:13-58
+116            android:value="@string/facebook_application_id" />
+116-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:29:13-60
+117
+118        <activity
+118-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:31:9-35:61
+119            android:name="com.firebase.ui.auth.KickoffActivity"
+119-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:32:13-64
+120            android:exported="false"
+120-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:33:13-37
+121            android:label=""
+121-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:34:13-29
+122            android:theme="@style/FirebaseUI.Transparent" />
+122-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:35:13-58
+123        <activity
+123-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:36:9-40:61
+124            android:name="com.firebase.ui.auth.ui.idp.SingleSignInActivity"
+124-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:37:13-76
+125            android:exported="false"
+125-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:38:13-37
+126            android:label=""
+126-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:39:13-29
+127            android:theme="@style/FirebaseUI.Transparent" />
+127-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:40:13-58
+128        <activity
+128-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:41:9-45:61
+129            android:name="com.firebase.ui.auth.ui.credentials.CredentialSaveActivity"
+129-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:42:13-86
+130            android:exported="false"
+130-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:43:13-37
+131            android:label=""
+131-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:44:13-29
+132            android:theme="@style/FirebaseUI.Transparent" />
+132-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:45:13-58
+133        <activity
+133-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:46:9-50:58
+134            android:name="com.firebase.ui.auth.ui.email.RecoverPasswordActivity"
+134-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:47:13-81
+135            android:exported="false"
+135-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:48:13-37
+136            android:label="@string/fui_title_recover_password_activity"
+136-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:49:13-72
+137            android:windowSoftInputMode="adjustResize" />
+137-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:50:13-55
+138        <activity
+138-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:51:9-55:58
+139            android:name="com.firebase.ui.auth.ui.email.EmailActivity"
+139-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:52:13-71
+140            android:exported="false"
+140-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:53:13-37
+141            android:label="@string/fui_sign_in_default"
+141-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:54:13-56
+142            android:windowSoftInputMode="adjustResize" />
+142-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:55:13-55
+143        <activity
+143-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:56:9-60:77
+144            android:name="com.firebase.ui.auth.ui.phone.PhoneActivity"
+144-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:57:13-71
+145            android:exported="false"
+145-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:58:13-37
+146            android:label="@string/fui_sign_in_with_phone_number"
+146-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:59:13-66
+147            android:windowSoftInputMode="adjustResize|stateAlwaysVisible" />
+147-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:60:13-74
+148        <activity
+148-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:61:9-65:58
+149            android:name="com.firebase.ui.auth.ui.idp.WelcomeBackIdpPrompt"
+149-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:62:13-76
+150            android:exported="false"
+150-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:63:13-37
+151            android:label="@string/fui_title_welcome_back_idp_prompt"
+151-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:64:13-70
+152            android:windowSoftInputMode="adjustResize" />
+152-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:65:13-55
+153        <activity
+153-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:66:9-70:58
+154            android:name="com.firebase.ui.auth.ui.email.WelcomeBackPasswordPrompt"
+154-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:67:13-83
+155            android:exported="false"
+155-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:68:13-37
+156            android:label="@string/fui_title_welcome_back_password_prompt"
+156-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:69:13-75
+157            android:windowSoftInputMode="adjustResize" />
+157-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:70:13-55
+158        <activity
+158-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:71:9-75:58
+159            android:name="com.firebase.ui.auth.ui.email.WelcomeBackEmailLinkPrompt"
+159-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:72:13-84
+160            android:exported="false"
+160-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:73:13-37
+161            android:label="@string/fui_title_welcome_back_password_prompt"
+161-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:74:13-75
+162            android:windowSoftInputMode="adjustResize" />
+162-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:75:13-55
+163        <activity
+163-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:76:9-81:58
+164            android:name="com.firebase.ui.auth.ui.email.EmailLinkCatcherActivity"
+164-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:77:13-82
+165            android:exported="false"
+165-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:78:13-37
+166            android:label=""
+166-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:79:13-29
+167            android:theme="@style/FirebaseUI.Transparent"
+167-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:80:13-58
+168            android:windowSoftInputMode="adjustResize" />
+168-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:81:13-55
+169        <activity
+169-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:82:9-86:58
+170            android:name="com.firebase.ui.auth.ui.email.EmailLinkErrorRecoveryActivity"
+170-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:83:13-88
+171            android:exported="false"
+171-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:84:13-37
+172            android:label="@string/fui_sign_in_default"
+172-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:85:13-56
+173            android:windowSoftInputMode="adjustResize" />
+173-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:86:13-55
+174        <activity
+174-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:87:9-90:65
+175            android:name="com.firebase.ui.auth.ui.idp.AuthMethodPickerActivity"
+175-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:88:13-80
+176            android:exported="false"
+176-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:89:13-37
+177            android:label="@string/fui_default_toolbar_title" />
+177-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:90:13-62
+178        <activity
+178-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:91:9-95:48
+179            android:name="com.facebook.FacebookActivity"
+179-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:92:13-57
+180            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+180-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:93:13-96
+181            android:label="@string/app_name" />
+181-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:94:13-45
+182        <activity
+182-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:96:9-108:20
+183            android:name="com.facebook.CustomTabActivity"
+183-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:97:13-58
+184            android:exported="true" >
+184-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:98:13-36
+185            <intent-filter>
+185-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:100:13-107:29
+186                <action android:name="android.intent.action.VIEW" />
+186-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:15:13-65
+186-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:15:21-62
+187
+188                <category android:name="android.intent.category.DEFAULT" />
+188-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:103:17-76
+188-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:103:27-73
+189                <category android:name="android.intent.category.BROWSABLE" />
+189-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:17:13-74
+189-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:17:23-71
+190
+191                <data android:scheme="@string/facebook_login_protocol_scheme" />
+191-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:19:13-43
+191-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:19:19-40
+192            </intent-filter>
+193        </activity>
+194
+195        <provider
+195-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:110:9-114:38
+196            android:name="com.firebase.ui.auth.data.client.AuthUiInitProvider"
+196-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:111:13-79
+197            android:authorities="com.batakantonio.bikeandrun.authuiinitprovider"
+197-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:112:13-70
+198            android:exported="false"
+198-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:113:13-37
+199            android:initOrder="90" />
+199-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:114:13-35
+200
+201        <service
+201-->[com.google.firebase:firebase-auth-ktx:23.2.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\06e4a3a000b5098c663faa6926fff455\transformed\jetified-firebase-auth-ktx-23.2.1\AndroidManifest.xml:8:9-14:19
+202            android:name="com.google.firebase.components.ComponentDiscoveryService"
+202-->[com.google.firebase:firebase-auth-ktx:23.2.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\06e4a3a000b5098c663faa6926fff455\transformed\jetified-firebase-auth-ktx-23.2.1\AndroidManifest.xml:9:13-84
+203            android:directBootAware="true"
+203-->[com.google.firebase:firebase-common:22.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\d705b4666bd1d302fb150ff02d011d9f\transformed\jetified-firebase-common-22.0.1\AndroidManifest.xml:32:13-43
+204            android:exported="false" >
+204-->[com.google.firebase:firebase-auth-ktx:23.2.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\06e4a3a000b5098c663faa6926fff455\transformed\jetified-firebase-auth-ktx-23.2.1\AndroidManifest.xml:10:13-37
+205            <meta-data
+205-->[com.google.firebase:firebase-auth-ktx:23.2.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\06e4a3a000b5098c663faa6926fff455\transformed\jetified-firebase-auth-ktx-23.2.1\AndroidManifest.xml:11:13-13:85
+206                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthLegacyRegistrar"
+206-->[com.google.firebase:firebase-auth-ktx:23.2.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\06e4a3a000b5098c663faa6926fff455\transformed\jetified-firebase-auth-ktx-23.2.1\AndroidManifest.xml:12:17-119
+207                android:value="com.google.firebase.components.ComponentRegistrar" />
+207-->[com.google.firebase:firebase-auth-ktx:23.2.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\06e4a3a000b5098c663faa6926fff455\transformed\jetified-firebase-auth-ktx-23.2.1\AndroidManifest.xml:13:17-82
+208            <meta-data
+208-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f0a9f3bd628fb6bffb2c937d1fcaf291\transformed\jetified-firebase-auth-24.0.1\AndroidManifest.xml:69:13-71:85
+209                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+209-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f0a9f3bd628fb6bffb2c937d1fcaf291\transformed\jetified-firebase-auth-24.0.1\AndroidManifest.xml:70:17-109
+210                android:value="com.google.firebase.components.ComponentRegistrar" />
+210-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f0a9f3bd628fb6bffb2c937d1fcaf291\transformed\jetified-firebase-auth-24.0.1\AndroidManifest.xml:71:17-82
+211            <meta-data
+211-->[com.google.firebase:firebase-database:22.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f7f6e715c067c2e0d2c536dbaed5652c\transformed\jetified-firebase-database-22.0.1\AndroidManifest.xml:29:13-31:85
+212                android:name="com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar"
+212-->[com.google.firebase:firebase-database:22.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f7f6e715c067c2e0d2c536dbaed5652c\transformed\jetified-firebase-database-22.0.1\AndroidManifest.xml:30:17-120
+213                android:value="com.google.firebase.components.ComponentRegistrar" />
+213-->[com.google.firebase:firebase-database:22.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f7f6e715c067c2e0d2c536dbaed5652c\transformed\jetified-firebase-database-22.0.1\AndroidManifest.xml:31:17-82
+214            <meta-data
+214-->[com.google.firebase:firebase-database:22.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f7f6e715c067c2e0d2c536dbaed5652c\transformed\jetified-firebase-database-22.0.1\AndroidManifest.xml:32:13-34:85
+215                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+215-->[com.google.firebase:firebase-database:22.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f7f6e715c067c2e0d2c536dbaed5652c\transformed\jetified-firebase-database-22.0.1\AndroidManifest.xml:33:17-109
+216                android:value="com.google.firebase.components.ComponentRegistrar" />
+216-->[com.google.firebase:firebase-database:22.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f7f6e715c067c2e0d2c536dbaed5652c\transformed\jetified-firebase-database-22.0.1\AndroidManifest.xml:34:17-82
+217            <meta-data
+217-->[com.google.firebase:firebase-firestore:26.0.2] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\3f17457a170db5dd3c5a4c8d4d3c7c24\transformed\jetified-firebase-firestore-26.0.2\AndroidManifest.xml:17:13-19:85
+218                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+218-->[com.google.firebase:firebase-firestore:26.0.2] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\3f17457a170db5dd3c5a4c8d4d3c7c24\transformed\jetified-firebase-firestore-26.0.2\AndroidManifest.xml:18:17-122
+219                android:value="com.google.firebase.components.ComponentRegistrar" />
+219-->[com.google.firebase:firebase-firestore:26.0.2] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\3f17457a170db5dd3c5a4c8d4d3c7c24\transformed\jetified-firebase-firestore-26.0.2\AndroidManifest.xml:19:17-82
+220            <meta-data
+220-->[com.google.firebase:firebase-firestore:26.0.2] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\3f17457a170db5dd3c5a4c8d4d3c7c24\transformed\jetified-firebase-firestore-26.0.2\AndroidManifest.xml:20:13-22:85
+221                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+221-->[com.google.firebase:firebase-firestore:26.0.2] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\3f17457a170db5dd3c5a4c8d4d3c7c24\transformed\jetified-firebase-firestore-26.0.2\AndroidManifest.xml:21:17-111
+222                android:value="com.google.firebase.components.ComponentRegistrar" />
+222-->[com.google.firebase:firebase-firestore:26.0.2] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\3f17457a170db5dd3c5a4c8d4d3c7c24\transformed\jetified-firebase-firestore-26.0.2\AndroidManifest.xml:22:17-82
+223            <meta-data
+223-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\c02fda28af9353995c6fa5c1fb99bd98\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
+224                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+224-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\c02fda28af9353995c6fa5c1fb99bd98\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:13:17-116
+225                android:value="com.google.firebase.components.ComponentRegistrar" />
+225-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\c02fda28af9353995c6fa5c1fb99bd98\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:14:17-82
+226            <meta-data
+226-->[com.google.firebase:firebase-common:22.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\d705b4666bd1d302fb150ff02d011d9f\transformed\jetified-firebase-common-22.0.1\AndroidManifest.xml:35:13-37:85
+227                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+227-->[com.google.firebase:firebase-common:22.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\d705b4666bd1d302fb150ff02d011d9f\transformed\jetified-firebase-common-22.0.1\AndroidManifest.xml:36:17-109
+228                android:value="com.google.firebase.components.ComponentRegistrar" />
+228-->[com.google.firebase:firebase-common:22.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\d705b4666bd1d302fb150ff02d011d9f\transformed\jetified-firebase-common-22.0.1\AndroidManifest.xml:37:17-82
+229        </service>
+230
+231        <activity
+231-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f0a9f3bd628fb6bffb2c937d1fcaf291\transformed\jetified-firebase-auth-24.0.1\AndroidManifest.xml:29:9-46:20
+232            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+232-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f0a9f3bd628fb6bffb2c937d1fcaf291\transformed\jetified-firebase-auth-24.0.1\AndroidManifest.xml:30:13-80
+233            android:excludeFromRecents="true"
+233-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f0a9f3bd628fb6bffb2c937d1fcaf291\transformed\jetified-firebase-auth-24.0.1\AndroidManifest.xml:31:13-46
+234            android:exported="true"
+234-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f0a9f3bd628fb6bffb2c937d1fcaf291\transformed\jetified-firebase-auth-24.0.1\AndroidManifest.xml:32:13-36
+235            android:launchMode="singleTask"
+235-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f0a9f3bd628fb6bffb2c937d1fcaf291\transformed\jetified-firebase-auth-24.0.1\AndroidManifest.xml:33:13-44
+236            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+236-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f0a9f3bd628fb6bffb2c937d1fcaf291\transformed\jetified-firebase-auth-24.0.1\AndroidManifest.xml:34:13-72
+237            <intent-filter>
+237-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f0a9f3bd628fb6bffb2c937d1fcaf291\transformed\jetified-firebase-auth-24.0.1\AndroidManifest.xml:35:13-45:29
+238                <action android:name="android.intent.action.VIEW" />
+238-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:15:13-65
+238-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:15:21-62
+239
+240                <category android:name="android.intent.category.DEFAULT" />
+240-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:103:17-76
+240-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:103:27-73
+241                <category android:name="android.intent.category.BROWSABLE" />
+241-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:17:13-74
+241-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:17:23-71
+242
+243                <data
+243-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:19:13-43
+244                    android:host="firebase.auth"
+245                    android:path="/"
+246                    android:scheme="genericidp" />
+246-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:19:19-40
+247            </intent-filter>
+248        </activity>
+249        <activity
+249-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f0a9f3bd628fb6bffb2c937d1fcaf291\transformed\jetified-firebase-auth-24.0.1\AndroidManifest.xml:47:9-64:20
+250            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+250-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f0a9f3bd628fb6bffb2c937d1fcaf291\transformed\jetified-firebase-auth-24.0.1\AndroidManifest.xml:48:13-79
+251            android:excludeFromRecents="true"
+251-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f0a9f3bd628fb6bffb2c937d1fcaf291\transformed\jetified-firebase-auth-24.0.1\AndroidManifest.xml:49:13-46
+252            android:exported="true"
+252-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f0a9f3bd628fb6bffb2c937d1fcaf291\transformed\jetified-firebase-auth-24.0.1\AndroidManifest.xml:50:13-36
+253            android:launchMode="singleTask"
+253-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f0a9f3bd628fb6bffb2c937d1fcaf291\transformed\jetified-firebase-auth-24.0.1\AndroidManifest.xml:51:13-44
+254            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+254-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f0a9f3bd628fb6bffb2c937d1fcaf291\transformed\jetified-firebase-auth-24.0.1\AndroidManifest.xml:52:13-72
+255            <intent-filter>
+255-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\f0a9f3bd628fb6bffb2c937d1fcaf291\transformed\jetified-firebase-auth-24.0.1\AndroidManifest.xml:53:13-63:29
+256                <action android:name="android.intent.action.VIEW" />
+256-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:15:13-65
+256-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:15:21-62
+257
+258                <category android:name="android.intent.category.DEFAULT" />
+258-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:103:17-76
+258-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:103:27-73
+259                <category android:name="android.intent.category.BROWSABLE" />
+259-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:17:13-74
+259-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:17:23-71
+260
+261                <data
+261-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:19:13-43
+262                    android:host="firebase.auth"
+263                    android:path="/"
+264                    android:scheme="recaptcha" />
+264-->[com.firebaseui:firebase-ui-auth:9.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ac52f11bc335b55fc1624587812825e4\transformed\jetified-firebase-ui-auth-9.0.0\AndroidManifest.xml:19:19-40
+265            </intent-filter>
+266        </activity>
+267
+268        <service
+268-->[androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\28a1eb1bc94777a12893fd4b07f541db\transformed\jetified-credentials-play-services-auth-1.5.0\AndroidManifest.xml:24:9-32:19
+269            android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder"
+269-->[androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\28a1eb1bc94777a12893fd4b07f541db\transformed\jetified-credentials-play-services-auth-1.5.0\AndroidManifest.xml:25:13-94
+270            android:enabled="true"
+270-->[androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\28a1eb1bc94777a12893fd4b07f541db\transformed\jetified-credentials-play-services-auth-1.5.0\AndroidManifest.xml:26:13-35
+271            android:exported="false" >
+271-->[androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\28a1eb1bc94777a12893fd4b07f541db\transformed\jetified-credentials-play-services-auth-1.5.0\AndroidManifest.xml:27:13-37
+272            <meta-data
+272-->[androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\28a1eb1bc94777a12893fd4b07f541db\transformed\jetified-credentials-play-services-auth-1.5.0\AndroidManifest.xml:29:13-31:104
+273                android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY"
+273-->[androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\28a1eb1bc94777a12893fd4b07f541db\transformed\jetified-credentials-play-services-auth-1.5.0\AndroidManifest.xml:30:17-76
+274                android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl" />
+274-->[androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\28a1eb1bc94777a12893fd4b07f541db\transformed\jetified-credentials-play-services-auth-1.5.0\AndroidManifest.xml:31:17-101
+275        </service>
+276
+277        <activity
+277-->[androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\28a1eb1bc94777a12893fd4b07f541db\transformed\jetified-credentials-play-services-auth-1.5.0\AndroidManifest.xml:34:9-41:20
+278            android:name="androidx.credentials.playservices.HiddenActivity"
+278-->[androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\28a1eb1bc94777a12893fd4b07f541db\transformed\jetified-credentials-play-services-auth-1.5.0\AndroidManifest.xml:35:13-76
+279            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+279-->[androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\28a1eb1bc94777a12893fd4b07f541db\transformed\jetified-credentials-play-services-auth-1.5.0\AndroidManifest.xml:36:13-87
+280            android:enabled="true"
+280-->[androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\28a1eb1bc94777a12893fd4b07f541db\transformed\jetified-credentials-play-services-auth-1.5.0\AndroidManifest.xml:37:13-35
+281            android:exported="false"
+281-->[androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\28a1eb1bc94777a12893fd4b07f541db\transformed\jetified-credentials-play-services-auth-1.5.0\AndroidManifest.xml:38:13-37
+282            android:fitsSystemWindows="true"
+282-->[androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\28a1eb1bc94777a12893fd4b07f541db\transformed\jetified-credentials-play-services-auth-1.5.0\AndroidManifest.xml:39:13-45
+283            android:theme="@style/Theme.Hidden" >
+283-->[androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\28a1eb1bc94777a12893fd4b07f541db\transformed\jetified-credentials-play-services-auth-1.5.0\AndroidManifest.xml:40:13-48
+284        </activity>
+285        <activity
+285-->[androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\28a1eb1bc94777a12893fd4b07f541db\transformed\jetified-credentials-play-services-auth-1.5.0\AndroidManifest.xml:42:9-49:20
+286            android:name="androidx.credentials.playservices.IdentityCredentialApiHiddenActivity"
+286-->[androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\28a1eb1bc94777a12893fd4b07f541db\transformed\jetified-credentials-play-services-auth-1.5.0\AndroidManifest.xml:43:13-97
+287            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+287-->[androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\28a1eb1bc94777a12893fd4b07f541db\transformed\jetified-credentials-play-services-auth-1.5.0\AndroidManifest.xml:44:13-87
+288            android:enabled="true"
+288-->[androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\28a1eb1bc94777a12893fd4b07f541db\transformed\jetified-credentials-play-services-auth-1.5.0\AndroidManifest.xml:45:13-35
+289            android:exported="false"
+289-->[androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\28a1eb1bc94777a12893fd4b07f541db\transformed\jetified-credentials-play-services-auth-1.5.0\AndroidManifest.xml:46:13-37
+290            android:fitsSystemWindows="true"
+290-->[androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\28a1eb1bc94777a12893fd4b07f541db\transformed\jetified-credentials-play-services-auth-1.5.0\AndroidManifest.xml:47:13-45
+291            android:theme="@style/Theme.Hidden" >
+291-->[androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\28a1eb1bc94777a12893fd4b07f541db\transformed\jetified-credentials-play-services-auth-1.5.0\AndroidManifest.xml:48:13-48
+292        </activity> <!-- Needs to be explicitly declared on P+ -->
+293        <uses-library
+293-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\17d8e83724fc675f49b995efaea7e0da\transformed\jetified-play-services-maps-19.2.0\AndroidManifest.xml:33:7-86
+294            android:name="org.apache.http.legacy"
+294-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\17d8e83724fc675f49b995efaea7e0da\transformed\jetified-play-services-maps-19.2.0\AndroidManifest.xml:33:21-58
+295            android:required="false" />
+295-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\17d8e83724fc675f49b995efaea7e0da\transformed\jetified-play-services-maps-19.2.0\AndroidManifest.xml:33:59-83
+296
+297        <activity
+297-->[com.google.android.gms:play-services-auth:21.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ff667efb3b4ee92f7c31c8fb5ee8a271\transformed\jetified-play-services-auth-21.4.0\AndroidManifest.xml:23:9-27:75
+298            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+298-->[com.google.android.gms:play-services-auth:21.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ff667efb3b4ee92f7c31c8fb5ee8a271\transformed\jetified-play-services-auth-21.4.0\AndroidManifest.xml:24:13-93
+299            android:excludeFromRecents="true"
+299-->[com.google.android.gms:play-services-auth:21.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ff667efb3b4ee92f7c31c8fb5ee8a271\transformed\jetified-play-services-auth-21.4.0\AndroidManifest.xml:25:13-46
+300            android:exported="false"
+300-->[com.google.android.gms:play-services-auth:21.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ff667efb3b4ee92f7c31c8fb5ee8a271\transformed\jetified-play-services-auth-21.4.0\AndroidManifest.xml:26:13-37
+301            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+301-->[com.google.android.gms:play-services-auth:21.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ff667efb3b4ee92f7c31c8fb5ee8a271\transformed\jetified-play-services-auth-21.4.0\AndroidManifest.xml:27:13-72
+302        <!--
+303            Service handling Google Sign-In user revocation. For apps that do not integrate with
+304            Google Sign-In, this service will never be started.
+305        -->
+306        <service
+306-->[com.google.android.gms:play-services-auth:21.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ff667efb3b4ee92f7c31c8fb5ee8a271\transformed\jetified-play-services-auth-21.4.0\AndroidManifest.xml:33:9-37:51
+307            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+307-->[com.google.android.gms:play-services-auth:21.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ff667efb3b4ee92f7c31c8fb5ee8a271\transformed\jetified-play-services-auth-21.4.0\AndroidManifest.xml:34:13-89
+308            android:exported="true"
+308-->[com.google.android.gms:play-services-auth:21.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ff667efb3b4ee92f7c31c8fb5ee8a271\transformed\jetified-play-services-auth-21.4.0\AndroidManifest.xml:35:13-36
+309            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+309-->[com.google.android.gms:play-services-auth:21.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ff667efb3b4ee92f7c31c8fb5ee8a271\transformed\jetified-play-services-auth-21.4.0\AndroidManifest.xml:36:13-107
+310            android:visibleToInstantApps="true" />
+310-->[com.google.android.gms:play-services-auth:21.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\ff667efb3b4ee92f7c31c8fb5ee8a271\transformed\jetified-play-services-auth-21.4.0\AndroidManifest.xml:37:13-48
+311
+312        <activity
+312-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\aab1b5bfb7d7c7e7c2b8d5629deb1f28\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+313            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+313-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\aab1b5bfb7d7c7e7c2b8d5629deb1f28\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+314            android:exported="false"
+314-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\aab1b5bfb7d7c7e7c2b8d5629deb1f28\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+315            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+315-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\aab1b5bfb7d7c7e7c2b8d5629deb1f28\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+316
+317        <provider
+317-->[com.google.firebase:firebase-common:22.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\d705b4666bd1d302fb150ff02d011d9f\transformed\jetified-firebase-common-22.0.1\AndroidManifest.xml:23:9-28:39
+318            android:name="com.google.firebase.provider.FirebaseInitProvider"
+318-->[com.google.firebase:firebase-common:22.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\d705b4666bd1d302fb150ff02d011d9f\transformed\jetified-firebase-common-22.0.1\AndroidManifest.xml:24:13-77
+319            android:authorities="com.batakantonio.bikeandrun.firebaseinitprovider"
+319-->[com.google.firebase:firebase-common:22.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\d705b4666bd1d302fb150ff02d011d9f\transformed\jetified-firebase-common-22.0.1\AndroidManifest.xml:25:13-72
+320            android:directBootAware="true"
+320-->[com.google.firebase:firebase-common:22.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\d705b4666bd1d302fb150ff02d011d9f\transformed\jetified-firebase-common-22.0.1\AndroidManifest.xml:26:13-43
+321            android:exported="false"
+321-->[com.google.firebase:firebase-common:22.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\d705b4666bd1d302fb150ff02d011d9f\transformed\jetified-firebase-common-22.0.1\AndroidManifest.xml:27:13-37
+322            android:initOrder="100" />
+322-->[com.google.firebase:firebase-common:22.0.1] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\d705b4666bd1d302fb150ff02d011d9f\transformed\jetified-firebase-common-22.0.1\AndroidManifest.xml:28:13-36
+323        <provider
+323-->[androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:29:9-37:20
+324            android:name="androidx.startup.InitializationProvider"
+324-->[androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:30:13-67
+325            android:authorities="com.batakantonio.bikeandrun.androidx-startup"
+325-->[androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:31:13-68
+326            android:exported="false" >
+326-->[androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:32:13-37
+327            <meta-data
+327-->[androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:34:13-36:52
+328                android:name="androidx.work.WorkManagerInitializer"
+328-->[androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:35:17-68
+329                android:value="androidx.startup" />
+329-->[androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:36:17-49
+330            <meta-data
+330-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\5540668fe0fd1dbbda75b245fc4c28df\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+331                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+331-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\5540668fe0fd1dbbda75b245fc4c28df\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+332                android:value="androidx.startup" />
+332-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\5540668fe0fd1dbbda75b245fc4c28df\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+333            <meta-data
+333-->[androidx.lifecycle:lifecycle-process:2.9.4] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\47f098a3c25eeb19e82c73db75392a92\transformed\jetified-lifecycle-process-2.9.4\AndroidManifest.xml:29:13-31:52
+334                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+334-->[androidx.lifecycle:lifecycle-process:2.9.4] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\47f098a3c25eeb19e82c73db75392a92\transformed\jetified-lifecycle-process-2.9.4\AndroidManifest.xml:30:17-78
+335                android:value="androidx.startup" />
+335-->[androidx.lifecycle:lifecycle-process:2.9.4] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\47f098a3c25eeb19e82c73db75392a92\transformed\jetified-lifecycle-process-2.9.4\AndroidManifest.xml:31:17-49
+336            <meta-data
+336-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\faa307491040cc56d9d7ade091b5c17c\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+337                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+337-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\faa307491040cc56d9d7ade091b5c17c\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+338                android:value="androidx.startup" />
+338-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\faa307491040cc56d9d7ade091b5c17c\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+339        </provider>
+340
+341        <service
+341-->[androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:39:9-45:35
+342            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+342-->[androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:40:13-84
+343            android:directBootAware="false"
+343-->[androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:41:13-44
+344            android:enabled="@bool/enable_system_job_service_default"
+344-->[androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:42:13-70
+345            android:exported="true"
+345-->[androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:43:13-36
+346            android:permission="android.permission.BIND_JOB_SERVICE" />
+346-->[androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:44:13-69
+347        <service
+347-->[androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:46:9-52:35
+348            android:name="androidx.work.impl.foreground.SystemForegroundService"
+348-->[androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:47:13-81
+349            android:directBootAware="false"
+349-->[androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:48:13-44
+350            android:enabled="@bool/enable_system_foreground_service_default"
+350-->[androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:49:13-77
+351            android:exported="false" />
+351-->[androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:50:13-37
+352
+353        <receiver
+353-->[androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:54:9-59:35
+354            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+354-->[androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:55:13-88
+355            android:directBootAware="false"
+355-->[androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:56:13-44
+356            android:enabled="true"
+356-->[androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:57:13-35
+357            android:exported="false" />
+357-->[androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:58:13-37
+358        <receiver
+358-->[androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:60:9-69:20
+359            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+359-->[androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:61:13-88
+360            android:directBootAware="false"
+360-->[androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:62:13-44
+361            android:enabled="false"
+361-->[androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:63:13-36
+362            android:exported="false" >
+362-->[androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:64:13-37
+363            <intent-filter>
+363-->[androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:66:13-68:29
+364                <action android:name="android.intent.action.BOOT_COMPLETED" />
+364-->[androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:67:17-79
+364-->[androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:67:25-76
+365            </intent-filter>
+366        </receiver>
+367        <receiver
+367-->[androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:70:9-80:20
+368            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+368-->[androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:71:13-78
+369            android:directBootAware="false"
+369-->[androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:72:13-44
+370            android:enabled="true"
+370-->[androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:73:13-35
+371            android:exported="true"
+371-->[androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:74:13-36
+372            android:permission="android.permission.DUMP" >
+372-->[androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:75:13-57
+373            <intent-filter>
+373-->[androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:77:13-79:29
+374                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+374-->[androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:78:17-88
+374-->[androidx.work:work-runtime:2.11.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\db9620ab7b56369f0617af9ac425eedd\transformed\work-runtime-2.11.0\AndroidManifest.xml:78:25-85
+375            </intent-filter>
+376        </receiver>
+377
+378        <service
+378-->[androidx.room:room-runtime-android:2.8.3] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\bfe9c83f5b84872f290cdd85e49b8775\transformed\jetified-room-runtime\AndroidManifest.xml:24:9-28:63
+379            android:name="androidx.room.MultiInstanceInvalidationService"
+379-->[androidx.room:room-runtime-android:2.8.3] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\bfe9c83f5b84872f290cdd85e49b8775\transformed\jetified-room-runtime\AndroidManifest.xml:25:13-74
+380            android:directBootAware="true"
+380-->[androidx.room:room-runtime-android:2.8.3] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\bfe9c83f5b84872f290cdd85e49b8775\transformed\jetified-room-runtime\AndroidManifest.xml:26:13-43
+381            android:exported="false" />
+381-->[androidx.room:room-runtime-android:2.8.3] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\bfe9c83f5b84872f290cdd85e49b8775\transformed\jetified-room-runtime\AndroidManifest.xml:27:13-37
+382
+383        <activity
+383-->[androidx.test:core:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f58ed41ee4193a86f87123271e9bc6b\transformed\jetified-core-1.7.0\AndroidManifest.xml:27:9-34:20
+384            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+384-->[androidx.test:core:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f58ed41ee4193a86f87123271e9bc6b\transformed\jetified-core-1.7.0\AndroidManifest.xml:28:13-99
+385            android:exported="true"
+385-->[androidx.test:core:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f58ed41ee4193a86f87123271e9bc6b\transformed\jetified-core-1.7.0\AndroidManifest.xml:29:13-36
+386            android:theme="@style/WhiteBackgroundTheme" >
+386-->[androidx.test:core:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f58ed41ee4193a86f87123271e9bc6b\transformed\jetified-core-1.7.0\AndroidManifest.xml:30:13-56
+387            <intent-filter android:priority="-100" >
+387-->[androidx.test:core:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f58ed41ee4193a86f87123271e9bc6b\transformed\jetified-core-1.7.0\AndroidManifest.xml:31:13-33:29
+387-->[androidx.test:core:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f58ed41ee4193a86f87123271e9bc6b\transformed\jetified-core-1.7.0\AndroidManifest.xml:31:28-51
+388                <category android:name="android.intent.category.LAUNCHER" />
+388-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:57:17-77
+388-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:57:27-74
+389            </intent-filter>
+390        </activity>
+391        <activity
+391-->[androidx.test:core:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f58ed41ee4193a86f87123271e9bc6b\transformed\jetified-core-1.7.0\AndroidManifest.xml:35:9-42:20
+392            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+392-->[androidx.test:core:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f58ed41ee4193a86f87123271e9bc6b\transformed\jetified-core-1.7.0\AndroidManifest.xml:36:13-95
+393            android:exported="true"
+393-->[androidx.test:core:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f58ed41ee4193a86f87123271e9bc6b\transformed\jetified-core-1.7.0\AndroidManifest.xml:37:13-36
+394            android:theme="@style/WhiteBackgroundTheme" >
+394-->[androidx.test:core:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f58ed41ee4193a86f87123271e9bc6b\transformed\jetified-core-1.7.0\AndroidManifest.xml:38:13-56
+395            <intent-filter android:priority="-100" >
+395-->[androidx.test:core:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f58ed41ee4193a86f87123271e9bc6b\transformed\jetified-core-1.7.0\AndroidManifest.xml:31:13-33:29
+395-->[androidx.test:core:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f58ed41ee4193a86f87123271e9bc6b\transformed\jetified-core-1.7.0\AndroidManifest.xml:31:28-51
+396                <category android:name="android.intent.category.LAUNCHER" />
+396-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:57:17-77
+396-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:57:27-74
+397            </intent-filter>
+398        </activity>
+399        <activity
+399-->[androidx.test:core:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f58ed41ee4193a86f87123271e9bc6b\transformed\jetified-core-1.7.0\AndroidManifest.xml:43:9-50:20
+400            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+400-->[androidx.test:core:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f58ed41ee4193a86f87123271e9bc6b\transformed\jetified-core-1.7.0\AndroidManifest.xml:44:13-103
+401            android:exported="true"
+401-->[androidx.test:core:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f58ed41ee4193a86f87123271e9bc6b\transformed\jetified-core-1.7.0\AndroidManifest.xml:45:13-36
+402            android:theme="@style/WhiteBackgroundDialogTheme" >
+402-->[androidx.test:core:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f58ed41ee4193a86f87123271e9bc6b\transformed\jetified-core-1.7.0\AndroidManifest.xml:46:13-62
+403            <intent-filter android:priority="-100" >
+403-->[androidx.test:core:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f58ed41ee4193a86f87123271e9bc6b\transformed\jetified-core-1.7.0\AndroidManifest.xml:31:13-33:29
+403-->[androidx.test:core:1.7.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f58ed41ee4193a86f87123271e9bc6b\transformed\jetified-core-1.7.0\AndroidManifest.xml:31:28-51
+404                <category android:name="android.intent.category.LAUNCHER" />
+404-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:57:17-77
+404-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:57:27-74
+405            </intent-filter>
+406        </activity>
+407
+408        <uses-library
+408-->[androidx.window:window:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f3fee2f6c8d1c1e1ca1373c0917f66f\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+409            android:name="androidx.window.extensions"
+409-->[androidx.window:window:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f3fee2f6c8d1c1e1ca1373c0917f66f\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+410            android:required="false" />
+410-->[androidx.window:window:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f3fee2f6c8d1c1e1ca1373c0917f66f\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+411        <uses-library
+411-->[androidx.window:window:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f3fee2f6c8d1c1e1ca1373c0917f66f\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+412            android:name="androidx.window.sidecar"
+412-->[androidx.window:window:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f3fee2f6c8d1c1e1ca1373c0917f66f\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+413            android:required="false" />
+413-->[androidx.window:window:1.0.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\4f3fee2f6c8d1c1e1ca1373c0917f66f\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+414
+415        <receiver
+415-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\faa307491040cc56d9d7ade091b5c17c\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+416            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+416-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\faa307491040cc56d9d7ade091b5c17c\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+417            android:directBootAware="false"
+417-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\faa307491040cc56d9d7ade091b5c17c\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+418            android:enabled="true"
+418-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\faa307491040cc56d9d7ade091b5c17c\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+419            android:exported="true"
+419-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\faa307491040cc56d9d7ade091b5c17c\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+420            android:permission="android.permission.DUMP" >
+420-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\faa307491040cc56d9d7ade091b5c17c\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+421            <intent-filter>
+421-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\faa307491040cc56d9d7ade091b5c17c\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+422                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+422-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\faa307491040cc56d9d7ade091b5c17c\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+422-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\faa307491040cc56d9d7ade091b5c17c\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+423            </intent-filter>
+424            <intent-filter>
+424-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\faa307491040cc56d9d7ade091b5c17c\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+425                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+425-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\faa307491040cc56d9d7ade091b5c17c\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+425-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\faa307491040cc56d9d7ade091b5c17c\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+426            </intent-filter>
+427            <intent-filter>
+427-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\faa307491040cc56d9d7ade091b5c17c\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+428                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+428-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\faa307491040cc56d9d7ade091b5c17c\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+428-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\faa307491040cc56d9d7ade091b5c17c\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+429            </intent-filter>
+430            <intent-filter>
+430-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\faa307491040cc56d9d7ade091b5c17c\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+431                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+431-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\faa307491040cc56d9d7ade091b5c17c\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+431-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\faa307491040cc56d9d7ade091b5c17c\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+432            </intent-filter>
+433        </receiver>
+434
+435        <activity
+435-->[androidx.fragment:fragment-testing-manifest:1.8.9] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\510a8236ecd53f77694dfc72b744caef\transformed\jetified-fragment-testing-manifest-1.8.9\AndroidManifest.xml:26:9-35:20
+436            android:name="androidx.fragment.app.testing.EmptyFragmentActivity"
+436-->[androidx.fragment:fragment-testing-manifest:1.8.9] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\510a8236ecd53f77694dfc72b744caef\transformed\jetified-fragment-testing-manifest-1.8.9\AndroidManifest.xml:27:13-79
+437            android:exported="true"
+437-->[androidx.fragment:fragment-testing-manifest:1.8.9] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\510a8236ecd53f77694dfc72b744caef\transformed\jetified-fragment-testing-manifest-1.8.9\AndroidManifest.xml:28:13-36
+438            android:multiprocess="true"
+438-->[androidx.fragment:fragment-testing-manifest:1.8.9] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\510a8236ecd53f77694dfc72b744caef\transformed\jetified-fragment-testing-manifest-1.8.9\AndroidManifest.xml:29:13-40
+439            android:taskAffinity=""
+439-->[androidx.fragment:fragment-testing-manifest:1.8.9] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\510a8236ecd53f77694dfc72b744caef\transformed\jetified-fragment-testing-manifest-1.8.9\AndroidManifest.xml:30:13-36
+440            android:theme="@style/FragmentScenarioEmptyFragmentActivityTheme" >
+440-->[androidx.fragment:fragment-testing-manifest:1.8.9] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\510a8236ecd53f77694dfc72b744caef\transformed\jetified-fragment-testing-manifest-1.8.9\AndroidManifest.xml:31:13-78
+441            <intent-filter>
+441-->[androidx.fragment:fragment-testing-manifest:1.8.9] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\510a8236ecd53f77694dfc72b744caef\transformed\jetified-fragment-testing-manifest-1.8.9\AndroidManifest.xml:32:13-34:29
+442                <action android:name="android.intent.action.MAIN" />
+442-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:55:17-69
+442-->C:\Users\Razer1994\Desktop\Android Projects\BikeAndRun\app\src\main\AndroidManifest.xml:55:25-66
+443            </intent-filter>
+444        </activity> <!-- The activities will be merged into the manifest of the hosting app. -->
+445        <activity
+445-->[com.google.android.play:core-common:2.0.3] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\641b20e719ff9d4b28fc2a1921b9452d\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:14:9-18:65
+446            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+446-->[com.google.android.play:core-common:2.0.3] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\641b20e719ff9d4b28fc2a1921b9452d\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:15:13-93
+447            android:exported="false"
+447-->[com.google.android.play:core-common:2.0.3] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\641b20e719ff9d4b28fc2a1921b9452d\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:16:13-37
+448            android:stateNotNeeded="true"
+448-->[com.google.android.play:core-common:2.0.3] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\641b20e719ff9d4b28fc2a1921b9452d\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:17:13-42
+449            android:theme="@style/Theme.PlayCore.Transparent" />
+449-->[com.google.android.play:core-common:2.0.3] C:\Users\Razer1994\.gradle\caches\8.14.3\transforms\641b20e719ff9d4b28fc2a1921b9452d\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:18:13-62
+450    </application>
+451
+452</manifest>

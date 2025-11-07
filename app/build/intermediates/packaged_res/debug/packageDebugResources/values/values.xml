@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="black">#FF000000</color>
+    <color name="blue_500">#2196F3</color>
+    <color name="blue_700">#1976D2</color>
+    <color name="blue_900">#0D47A1</color>
+    <color name="grey_300">#E0E0E0</color>
+    <color name="grey_900">#212121</color>
+    <color name="light_blue_100">#B3E5FC</color>
+    <color name="light_blue_200">#81D4FA</color>
+    <color name="light_blue_50">#E1F5FE</color>
+    <color name="red_500">#F44336</color>
+    <color name="teal_100">#B2DFDB</color>
+    <color name="teal_400">#26A69A</color>
+    <color name="teal_50">#E0F2F1</color>
+    <color name="teal_600">#00897B</color>
+    <color name="teal_700">#00796B</color>
+    <color name="teal_900">#004D40</color>
+    <color name="teal_A200">#64FFDA</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="_10_2_5km_walk_text">10. 2,5km walk</string>
+    <string name="_10_30_minute_dance_cardio_ride_text">10. 30-Minute dance cardio ride</string>
+    <string name="_11_1km_sprints_run_repeat_10_times_text">11. 1km sprints run (repeat 10 times)</string>
+    <string name="_11_25_minute_hit_sprints_ride_text">11. 25-Minute hit sprints ride</string>
+    <string name="_12_rest_text">12. REST DAY</string>
+    <string name="_13_2_5km_walk_text">13. 2,5km walk</string>
+    <string name="_13_45_minute_beginner_ride_text">13. 45-Minute beginner ride</string>
+    <string name="_14_2_5km_running_for_20_minutes_text">14. 2,5km running for 20 minutes</string>
+    <string name="_14_30_minute_intermediate_ride_text">14. 30-Minute rhythm ride</string>
+    <string name="_15_rest_text">15. REST DAY</string>
+    <string name="_16_1km_sprints_run_repeat_8_times_text">16. 1km sprints run (repeat 8 times)</string>
+    <string name="_16_30_minute_sprints_ride_text">16. 30-Minute sprints ride</string>
+    <string name="_17_3km_walk_text">17. 3km walk</string>
+    <string name="_17_40_minute_intermediate_ride_text">17. 40-Minute intermediate ride</string>
+    <string name="_18_rest_day_text">18. REST DAY</string>
+    <string name="_18_rest_text">18. REST DAY</string>
+    <string name="_19_3km_running_for_18_minutes_text">19. 3km running for 18 minutes</string>
+    <string name="_19_45_minute_intermediate_climb_ride_text">19. 45-Minute intermediate climb ride</string>
+    <string name="_1_2km_running_for_20_minutes_text">1. 2km running for 20 minutes</string>
+    <string name="_1_30_minute_beginner_ride_text">1. 30-Minute beginner ride</string>
+    <string name="_20_30_minute_dance_cardio_ride_text">20. 30-Minute dance cardio ride</string>
+    <string name="_20_3km_walk_text">20. 3km walk</string>
+    <string name="_21_rest_day_text">21. REST DAY</string>
+    <string name="_21_rest_text">21. REST DAY</string>
+    <string name="_22_1km_sprints_run_repeat_7_times_text">22. 1km sprints run (repeat 7 times)</string>
+    <string name="_22_50_minute_rhythm_ride_text">22. 50-Minute rhythm ride</string>
+    <string name="_23_3_5_km_running_for_17_min">23. 3,5 km running for 17 minutes</string>
+    <string name="_23_40_minute_sprints_ride_text">23. 40-Minute sprints ride</string>
+    <string name="_24_rest_day_text">24. REST DAY</string>
+    <string name="_24_rest_text">24. REST DAY</string>
+    <string name="_25_3_5km_running_for_15_minutes">25. 3,5km running for 15 minutes</string>
+    <string name="_25_50_minute_intermediate_ride_text">25. 50-Minute intermediate ride</string>
+    <string name="_26_40_minute_dance_cardio_ride_text">26. 40-Minute dance cardio ride</string>
+    <string name="_26_4km_walk_text">26. 4km walk</string>
+    <string name="_27_rest_text">27. REST DAY </string>
+    <string name="_28_40_minute_sprints_ride_text">28. 40-Minute sprints ride</string>
+    <string name="_28_4km_running_for_20_minutes">28. 4km running for 20 minutes</string>
+    <string name="_29_rest_text">29. REST DAY</string>
+    <string name="_2_15_minute_hit_sprints_ride_text">2. 15-Minute hit sprints ride</string>
+    <string name="_2_2km_walk_text">2. 2 km walk</string>
+    <string name="_30_5km_running_for_25_minutes">30. 5km running for 25 minutes</string>
+    <string name="_30_60_minute_sprints_ride_text">30. 60-Minute sprints ride</string>
+    <string name="_30_day_challenge_text_title">30-day Challenge</string>
+    <string name="_3_rest_text">3. REST DAY</string>
+    <string name="_4_1km_sprints_run_repeat_10_times_text">4. 1km sprints run (repeat 10 times)</string>
+    <string name="_4_20_minute_rhythm_ride_text">4. 20-Minute rhythm ride</string>
+    <string name="_5_2km_walk_text">5. 2 km walk</string>
+    <string name="_5_30_minute_climb_ride_text">5. 30-Minute climb ride</string>
+    <string name="_6_rest_text">6. REST DAY</string>
+    <string name="_7_2km_running_for_18_minutes_text">7. 2km running for 18 minutes</string>
+    <string name="_7_40_minute_beginner_ride_text">7. 40-Minute beginner ride</string>
+    <string name="_8_20_minute_hit_sprints_ride_text">8. 20-Minute hit sprints ride</string>
+    <string name="_8_2_5_km_walk">8. 2,5 km walk</string>
+    <string name="_9_rest_text">9. REST DAY</string>
+    <string name="accessories_image_description">Accessories Image Description</string>
+    <string name="account_bottom_nav_title">Account</string>
+    <string name="add_users_button_text">Add user</string>
+    <string name="adding_button_description">Adding Button Description</string>
+    <string name="already_have_an_account_switch_to_login_text">Already have an account?</string>
+    <string name="app_name">Bike And Run</string>
+    <string name="back_image_description">Back Image Description</string>
+    <string name="bicycle_bottom_nav_title">Bicycle</string>
+    <string name="bicycle_image_description">Bicycle Image Description</string>
+    <string name="calculate_btn_text">Calculate</string>
+    <string name="calories_card_view_text">Calories</string>
+    <string name="calories_image_description">Calories Image Description</string>
+    <string name="challenge_card_view_text">Challenge</string>
+    <string name="challenge_image_description">Challenge Image Description</string>
+    <string name="clear_all_records_toolbar_text">Clear All Records</string>
+    <string name="clear_record_toolbar_text">Clear Record</string>
+    <string name="confirm_your_password_text_input">Confirm your password</string>
+    <string name="continue_btn_text">Continue</string>
+    <string name="continue_permission_text">Welcome to tracker.In order to use our tracker we will first need to request location permission from you. Otherwise we will not be able to provide you with our service. If you agree and wish to continue tap on the button below.</string>
+    <string name="continue_text_button">Continue</string>
+    <string name="cycling_calorie_calculator_text_title_heading">Cycling Calorie Calculator</string>
+    <string name="delete_all_text_menu">Delete All Users</string>
+    <string name="distance_text">Distance</string>
+    <string name="don_t_have_an_account_switch_to_sign_up_text">Don\'t have an account?</string>
+    <string name="duration_speed_text_button">Duration/Speed</string>
+    <string name="duration_text">Duration</string>
+    <string name="email_text_hint">Type your email</string>
+    <string name="enter_a_few_details_to_quickly_calculate_calories_burned_and_fat_loss_for_bike_rides_text">Enter a few details to quickly calculate calories burned and fat loss for bike rides.</string>
+    <string name="enter_a_few_details_to_quickly_calculate_calories_burned_and_fat_loss_for_runs_text">Enter a few details to quickly calculate calories burned and fat loss for runs.</string>
+    <string name="enter_age_text_hint">Enter Age</string>
+    <string name="enter_email_text_hint">Enter Email</string>
+    <string name="enter_name_text_hint">Enter Name</string>
+    <string name="enter_the_cycling_duration_text">Enter your cycling duration</string>
+    <string name="enter_the_elevation_gain_text">Enter the elevation gain</string>
+    <string name="enter_the_running_duration_text">Enter the running duration</string>
+    <string name="enter_your_email_edit_text">Enter your email</string>
+    <string name="enter_your_weight_text">Enter your weight</string>
+    <string name="fab_description">FAB</string>
+    <string name="feet_text">feet</string>
+    <string name="forgot_password_text_sign_in">Forgot Password?</string>
+    <string name="gcm_defaultSenderId" translatable="false">647351982762</string>
+    <string name="google_api_key" translatable="false">AIzaSyA5t7_hYYNpApX2aFDxgBj51oY-39YVM7Q</string>
+    <string name="google_app_id" translatable="false">1:647351982762:android:42fc2fb4b08c0b5adeced3</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA5t7_hYYNpApX2aFDxgBj51oY-39YVM7Q</string>
+    <string name="google_storage_bucket" translatable="false">bikeandrun-95711.firebasestorage.app</string>
+    <string name="hh_mm_ss_input_text">hh:mm:ss</string>
+    <string name="hill_options_btn_text">Hill Options</string>
+    <string name="how_far_did_you_cycle_text">How far did you cycle?</string>
+    <string name="hybrid_map">Hybrid</string>
+    <string name="if_you_want_to_use_tracking_first_you_must_give_us_your_permission_text">If you want to use tracking, first you MUST give us your permission.</string>
+    <string name="kg_text">kg</string>
+    <string name="kilometers_text">km</string>
+    <string name="kph_text">kph</string>
+    <string name="lb_text">lb</string>
+    <string name="miles_text">mi</string>
+    <string name="mph_text">mph</string>
+    <string name="navigation_image_description">Navigation Image Description</string>
+    <string name="navigation_logo_description">Navigation Logo Description</string>
+    <string name="none_map">None</string>
+    <string name="normal_map">Normal</string>
+    <string name="password_text_hint">Type your password</string>
+    <string name="permission_required_text">Permission Required</string>
+    <string name="project_id" translatable="false">bikeandrun-95711</string>
+    <string name="record_name_hint_text">Record Name</string>
+    <string name="records_card_view_text">Records</string>
+    <string name="records_image_description">Records Image Description</string>
+    <string name="reset_my_password_button_text">Reset my password</string>
+    <string name="running_bottom_nav_title">Running</string>
+    <string name="running_calorie_calculator_heading_text">Running Calorie Calculator</string>
+    <string name="running_image_description">Running Image Description</string>
+    <string name="satellite_map">Satellite</string>
+    <string name="save_button_text">Save</string>
+    <string name="sign_in_button_text">Sign in</string>
+    <string name="sign_in_text">Sign in</string>
+    <string name="sign_in_to_continue_text">Sign in to continue</string>
+    <string name="sign_out_text_menu">Sign Out</string>
+    <string name="sign_up_button_text">Sign up</string>
+    <string name="sign_up_text">Sign up</string>
+    <string name="sign_up_to_continue_sign_up_text">Sign up to continue</string>
+    <string name="speed_text_hint">Speed</string>
+    <string name="terrain_map">Terrain</string>
+    <string name="time_hint_text">Time</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="tracking_card_view_text">Tracking</string>
+    <string name="tracking_image_description">Tracking Image Description</string>
+    <string name="update_user_button_text">Update user</string>
+    <string name="weight_btn_text">Weight</string>
+    <string name="welcome_sign_up_text">Welcome,</string>
+    <style name="AccountMaterialButtonAppearance">
+        <item name="android:textColor">@color/teal_900</item>
+        <item name="android:textSize">18sp</item>
+        <item name="background">@color/teal_700</item>
+    </style>
+    <style name="AccountTextViewAppearance">
+        <item name="android:textColor">@color/teal_A200</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:layout_marginTop">50dp</item>
+    </style>
+    <style name="Base.Theme.BikeAndRun" parent="Theme.MaterialComponents.DayNight">
+        
+        <item name="colorPrimary">@color/teal_A200</item>
+        <item name="colorPrimaryVariant">@color/teal_700</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnBackground">@color/grey_900</item>
+        <item name="android:colorPrimaryDark">@color/teal_400</item>
+        <item name="colorOnSecondary">@color/teal_400</item>
+        <item name="android:windowOptOutEdgeToEdgeEnforcement" ns1:targetApi="35">true</item>
+    </style>
+    <style name="CaloriesCalculateMaterialButtonAppearance">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">@color/teal_700</item>
+        <item name="android:layout_marginTop">30dp</item>
+    </style>
+    <style name="CaloriesCardViewDurationAppearance">
+        <item name="android:layout_marginStart">24dp</item>
+        <item name="android:layout_marginTop">6dp</item>
+    </style>
+    <style name="CaloriesDescriptionDistanceAndDurationTextAppearance">
+        <item name="android:layout_marginTop">28dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="CaloriesDescriptionHillTextAppearance">
+        <item name="android:layout_marginTop">18dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="CaloriesDescriptionTextAppearance">
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="CaloriesDescriptionWeightTextAppearance">
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="CaloriesDistanceAndDurationMaterialButtonsAppearance">
+        <item name="android:layout_marginStart">12dp</item>
+        <item name="android:textColor">@color/teal_700</item>
+        <item name="android:layout_marginTop">4dp</item>
+    </style>
+    <style name="CaloriesImageBackAppearance">
+        <item name="android:layout_width">32dp</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:layout_margin">12dp</item>
+    </style>
+    <style name="CaloriesRadioButtonsAppearance1">
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="CaloriesRadioButtonsAppearance2">
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="CaloriesRadioButtonsAppearance3">
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="CaloriesResultTextViewAppearance">
+        <item name="android:layout_marginStart">12dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="CaloriesToolbarTextAppearance">
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="CaloriesWeightAndHillMaterialButtonsAppearance">
+        <item name="android:layout_marginStart">12dp</item>
+        <item name="android:layout_marginTop">40dp</item>
+        <item name="android:textColor">@color/teal_700</item>
+    </style>
+    <style name="CardViewTextAppearance">
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+        <item name="android:layout_marginStart">42dp</item>
+    </style>
+    <style name="ChallengeListTextAppearance">
+        <item name="android:layout_marginTop">27dp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/blue_500</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="ChallengeListTextAppearanceWithGravity">
+        <item name="android:layout_marginTop">27dp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:gravity">end</item>
+        <item name="android:textColor">@color/blue_500</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="ChallengeToolbarTextAppearance">
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="FirebaseToolbarTextAppearance">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="FirebaseUsersEditTextAppearance">
+        <item name="android:layout_margin">12dp</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textColor">@color/teal_A200</item>
+    </style>
+    <style name="FirebaseUsersItemTextAppearance">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="FirebaseUsersMaterialButtonAppearance">
+        <item name="android:layout_margin">20dp</item>
+        <item name="android:textColor">@color/teal_900</item>
+    </style>
+    <style name="FloatingActionButtonStyle" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerRadius">30dp</item>
+    </style>
+    <style name="RecordsToolbarTextAppearance">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Theme.BikeAndRun" parent="Base.Theme.BikeAndRun"/>
+</resources>

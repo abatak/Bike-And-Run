@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules xmlns:tools="http://schemas.android.com/tools">
+    <cloud-backup>
+        <!-- Include project-specific files/folders -->
+        <include path="databases/"
+            tools:ignore="FullBackupContent" />
+        <include path="files/"
+            tools:ignore="FullBackupContent" />
+        <include path="shared_prefs/"
+            tools:ignore="FullBackupContent" />
+
+        <!-- Exclude files/folders that should never be backed up -->
+        <exclude path="build/"
+            tools:ignore="FullBackupContent" />
+        <exclude path="local.properties"
+            tools:ignore="FullBackupContent" />
+        <exclude path=".gradle/"
+            tools:ignore="FullBackupContent" />
+        <exclude path="*.keystore"
+            tools:ignore="FullBackupContent" />
+    </cloud-backup>
+</data-extraction-rules>
