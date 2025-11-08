@@ -30,5 +30,5 @@ Please use yours Google Maps and Firebase API key. Instructions are above.
 
 When you first time open a 'tracking' activity and give a permission to use gps location it won't work.
 You must go back to main and return again to 'tracking'. Then it should works fine. 
-Sometimes when you try to set a route in emulator to track, can stuck.
+Emulator can stuck sometimes if you set a route and try run it.
 So, please close your emulator and try again.
