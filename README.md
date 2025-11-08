@@ -4,7 +4,7 @@
 
 This project is an example that showing how to calculate your calories,
 edit your records, complete challenges, tracking on Google Maps and login/sign up to your Firebase account.
-Every part of this project is sample code which shows hot to do the following:
+Every part of this project is sample code which shows how to do the following:
 
 * Fill the inputs in calories bike/running fragment
 * Open tracking, you MUST give a permission to enable tracking in Google Maps with API key
