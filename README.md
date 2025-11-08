@@ -1,7 +1,6 @@
 # Bike And Run 
 
-## Fully functional EXAMPLE project written in Kotlin showing how you can calculate your calories,
-## edit your records, complete challenges, tracking on Google Maps and login/sign up to your Firebase account!
+## Fully functional EXAMPLE project written in Kotlin showing how you can calculate your calories,edit your records, complete challenges, tracking on Google Maps and login/sign up to your Firebase account!
 
 This project is an example that showing how to calculate your calories,
 edit your records, complete challenges, tracking on Google Maps and login/sign up to your Firebase account.
